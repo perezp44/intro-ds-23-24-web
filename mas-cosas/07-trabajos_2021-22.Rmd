@@ -1,0 +1,203 @@
+---
+output:
+  html_document:
+    #css: !expr here::here("assets", "styles_pjp.css") 
+     #css: assets/styles_pjp.css
+    theme: united #cerulean  #o flatly(gris)  united (naranja) spacelab(azulito) o yeti o faltly o sandstone
+    #highlight: kate 
+    self_contained: yes
+    number_sections: no
+    #includes:
+       #in_header: google-analytics.html
+    toc: true
+    toc_float: true
+    #code_folding: show
+    #self_contained: TRUE
+---
+
+
+
+
+<br>
+
+# Curso 2021-2022
+
+<br>
+
+
+<div class = "blue">
+**Trabajos**: los 33 estudiantes del **curso 2021-2022**, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Puedes verlos en los siguientes enlaces:
+</div>
+
+
+
+
+<br><br>
+
+## Trabajos en equipo
+
+<br>
+
+- **Jesús Lloret Quero**, **Vicent Mompo Crespo** y **Francisco Martínez Caballero** presentaron el trabajo [Inflación en tiempos de pandemia](https://fran2200.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/fran2200/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://fran2200.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Pau Piera Palacios**, **Mario García Zamora** y **Pau Piera Palacios** presentaron el trabajo [Sistema de Pensiones Español](https://paupiera23.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/paupiera23/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://paupiera23.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+
+<br> 
+
+
+- **Aleixandra Blasco**, **Alba Ibañez** y **Vanesa Regueiro Raña** presentaron el trabajo [Spotify en la actualidad y su espíritu navideño](https://vanesarr.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/vanesarr/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://vanesarr.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Teodoro D'Agostino**, **Jorge González** y **Aurora Lloret** presentaron el trabajo [Principales conclusiones de la piratería desde 1993 hasta nuestros días](https://joorge0603.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/joorge0603/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://joorge0603.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Carlos García Castilla**, **Alejandro García Segarra** y **Cayetano Fernando Romero Monteagudo** presentaron el trabajo [Alt +  Formula 1](https://cayetano108.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/cayetano108/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://cayetano108.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Galina Lopez Zinchuk**, **Fatima Makroud Saidi** y **Damian Pérez Soler** presentaron el trabajo [Análisis del impacto medioambiental de la producción agrícola en Europa](https://damianps14.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/damianps14/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://damianps14.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+
+- **Julio Gonzalez Miralles**, **Pedro Julián López Mejías** y **Lawrence Daniel Phillips Bates** presentaron el trabajo [¿Se vive bien en la Comunidad Valenciana](https://lorenzo1999.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/lorenzo1999/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://lorenzo1999.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Carolina Espí García**, **José Pineda Torres** y **Jialing Zhang** presentaron el trabajo [Evolución del precio del crudo](https://Pitojo.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Pitojo/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://Pitojo.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Anna Chesa Llorens**, **Lorenzo Chirchirillo** y **Alicja Młynek** presentaron el trabajo [Análisis de las mejores 100 universidades del mundo](https://AlicjaMl.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AlicjaMl/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://AlicjaMl.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Alejandro Calderero**, **Mario de Benito** y **Alejandro Pérez** presentaron el trabajo [Análisis de criptomonedas, evolución y actualidad](https://alejandrocp00.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/alejandrocp00/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://alejandrocp00.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+- **Alba Estela**, **Melanie Neufcour** y **Mireia Yangüez** presentaron el trabajo [FAST FOOD. Análisis del restaurante McDonald’s](https://meneuf.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/meneuf/trabajo_BigData_equipo){target="_blank"}.  Las `slides` para la presentación están [aquí](https://meneuf.github.io/trabajo_BigData_slides/){target="_blank"}.
+
+<br> 
+
+
+
+<br><br>
+
+## Trabajos individuales
+
+------------------
+
+
+- **Jesus Lloret Quero** presentó el trabajo [El Tour de Francia en datos](https://Jelloque.github.io/trabajo_BigData/){target="_blank"}.  El repo está  [aquí](https://github.com/Jelloque/trabajo_BigData){target="_blank"}.
+
+
+- **Pau Piera Palacios** presentó el trabajo [Análisis de los Juegos Olímpicos](https://paupiera23.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/paupiera23/trabajo_BigData){target="_blank"}.
+
+
+- **Melanie Neufcour Barbosa** presentó el trabajo [Impacto del deporte en nuestro país](https://Meneuf.github.io/trabajo_BigData/){target="_blank"}. El repo está [aquí](https://github.com/Meneuf/trabajo_BigData){target="_blank"}.
+
+
+- **Cayetano Romero Monteagudo** presentó el trabajo [NBA a base de datos](https://cayetano108.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/cayetano108/trabajo_BigData){target="_blank"}.
+
+
+- **Teodoro D'Agostino García** presentó el trabajo [Los puentes sobre el Danubio](https://teodgstno.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/teodgstno/trabajo_BigData){target="_blank"}.
+
+- **Carlos	García Castilla** presentó el trabajo [LA BANDA SONORA DEL 2021](https://garcas8.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/garcas8/trabajo_BigData){target="_blank"}.
+ 
+
+ - **Alba Estela García** presentó el trabajo [TOP PELICULAS](https://albaestela14.github.io/trabajo_BigData/){target="_blank"}.
+El repo está
+[aquí](https://github.com/albaestela14/trabajo_BigData){target="_blank"}.
+
+
+- **Vicent Mompó Crespo** presentó el trabajo [Sostenibildad de la deuda pública española](https://VicentMompo.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está 
+[aquí](https://github.com/VicentMompo/trabajo_BigData){target="_blank"}.
+
+- **Jorge González Andrés** presentó el trabajo [¿Quíen es el GOAT del tenis?](https://joorge0603.github.io/trabajo_BigData/){target="_blank"} 
+El repo está 
+[aquí](https://github.com/joorge0603/trabajo_BigData){target="_blank"}.
+
+- **Mario García Zamora** presentó el trabajo [Historia económica de Sudáfrica](https://maretegz.github.io/trabajo_BigData/){target="_blank"}. El repo está [aquí](https://github.com/maretegz/trabajo_BigData){target="_blank"}. 
+
+
+- **Alejandro Pérez** presentó el trabajo [Analisis de la Educacion](https://alejandrouv.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está 
+[aquí](https://github.com/alejandrouv/trabajo_BigData){target="_blank"}.
+
+- **Vanesa Regueiro** presentó el trabajo [Evolución Universidad de Valencia en los últimos años](https://vanesarr.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está 
+[aquí](https://github.com/vanesarr/trabajo_BigData){target="_blank"}.
+
+- **Carolina Espí** presentó el trabajo [Naciones Unidas: Datos sobre población](https://caroleg18.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está 
+[aquí](https://github.com/caroleg18/trabajo_BigData){target="_blank"}.
+
+
+- **Alba Ibáñez Montagud** presentó el trabajo [Análisis de los Juegos Olímpicos](https://albaibanyez8.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/albaibanyez8/trabajo_BigData){target="_blank"}.
+
+
+- **Aleixandra Blasco** presentó el trabajo [Análisis de Disney y Marvel](https://AleixandraB.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/AleixandraB/trabajo_BigData){target="_blank"}.
+
+
+- **Francisco Martínez Caballero** presentó el trabajo [Relevancia del sector turístico en la economía pre y post Covid-19](https://fran2200.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/fran2200/trabajo_BigData){target="_blank"}.
+
+- **Jialing Zhang** presentó el trabajo [Población de los países miembros de la UE](https://jalizh.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/jalizh/trabajo_BigData){target="_blank"}.
+
+- **Anna Chesa Llorens** presentó el trabajo [Análisis demográfico con datos de la OCDE](https://annachesa.github.io/trabajo_BigData/){target="_blank"}. El repo está [aquí](https://github.com/annachesa/trabajo_BigData){target="_blank"}.
+
+- **Alicja Młynek** presentó el trabajo [Multimillonarios en el mundo](https://alicjaml.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/AlicjaMl/trabajo_BigData){target="_blank"}.
+
+- **Alejandro García Segarra** presentó el trabajo [El mercado de los videojuegos](https://agarse4.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/agarse4/trabajo_BigData){target="_blank"}.
+
+- **Rubén Campos Campos** presentó el trabajo [Mejores ligas europeas de fútbol](https://Rucamcam.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/Rucamcam/trabajo_BigData){target="_blank"}.
+
+
+- **José Pineda Torres** presentó el trabajo [Calp en la Marina Alta](https://pitojo.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/pitojo/trabajo_BigData){target="_blank"}.
+
+- **Mireia Yangüez Oliva** presentó el trabajo [Análisis económico austríaco](https://mireiayanguez.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/mireiayanguez/trabajo_BigData){target="_blank"}.
+
+- **Damián Pérez Soler** presentó el trabajo [Índice de libertad económica](https://damianps14.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/damianps14/trabajo_BigData){target="_blank"}.
+
+- **Alejandro Calderero Pierna** presentó el trabajo [Fútbol: La liga](https://alejandrocp00.github.io/trabajo_BigData/){target="_blank"}. 
+El repo está [aquí](https://github.com/alejandrocp00/trabajo_BigData){target="_blank"}
+
+- **Lawrence D. Phillips** presentó el trabajo [La epidemia de los opioides en Estados Unidos](https://lorenzo1999.github.io/trabajo_BigData/){target="_blank"}.
+El repo está [aquí](https://github.com/lorenzo1999/trabajo_BigData){target="_blank"}.
+
+
+<br><br>
+
+
+------------------------
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

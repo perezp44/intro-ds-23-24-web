@@ -1,0 +1,36 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+toc-title-website: "En esta página 44"
+toc-title-document: "Indice de contenidos 44"
+
+---
+
+## Trabajos/Proyectos
+
+::: {.callout-note appearance="minimal" icon="false"}
+
+Como parte de la evaluación continua, los estudiantes del curso 2023-24, tendrán que confeccionar **2 trabajos**, uno individual y otro en equipo.
+
+- El **trabajo en equipo** se presentará en clase durante las sesiones de la ultima semana (19 y 20 de diciembre)
+
+- El **trabajo individual** podrá presentarse después del periodo lectivo. Anunciaré una fecha límite por mail, generalmente será unos 3-4 días antes del examen final.
+
+:::
+
+<br><br>
+
+
+Puedes ver los trabajos confeccionados por los estudiantes de **cursos anteriores** en los siguiente links:
+
+
+   - [Curso 2022-23](./mas-cosas/07-trabajos_2022-23.html){target="_blank"}
+   
+   - [Curso 2021-22](./mas-cosas/07-trabajos_2021-22.html){target="_blank"}
+   
+   - [Curso 2020-21](./mas-cosas/07-trabajos_2020-21.html){target="_blank"}
+   
+   - [Curso 2019-20](./mas-cosas/07-trabajos_2019-20.html){target="_blank"}
+
+

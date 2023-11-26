@@ -1,0 +1,43 @@
+/* css styles */
+
+
+/* definiendo estilos de los párrafos */ 
+p, ul, ol {
+  text-align: justify; }        /* justificar el texto del body y listas */      
+  
+
+
+/* de: https://github.com/schochastics/quarto-schochastics/blob/main/styles.css */ 
+
+
+.quarto-grid-item img.thumbnail-image {
+    object-fit: contain;
+}
+
+.thumbnail-image:hover{
+  opacity:75%;
+}
+
+.center{
+   text-align: center;
+}
+
+div.column.col-v-center{
+   vertical-align: middle;
+}
+
+.home-title{
+  font-size: 2em;
+}
+
+.socials{
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.socials a{
+  color: #9EEBCF;
+  margin-left: 0.5em;
+}
+
+

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Programación y manejo de datos con R (2023-24) – guia-del-curso</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./imagenes/uv.jpeg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la busqueda",
+    "search-hide-matches-text": "Esconder resultados adicionales",
+    "search-more-match-text": "hay más resultados en este documento",
+    "search-more-matches-text": "más resultados en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Programación y manejo de datos con R (2023-24)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-house-door" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./01-guia-del-curso.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Guía del curso</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-logistica.html" rel="" target="">
+ <span class="menu-text">Logística</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03-materiales.html" rel="" target="">
+ <span class="menu-text">Materiales</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./04-calendario.html" rel="" target="">
+ <span class="menu-text">Calendario</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./05-trabajos-estudiantes.html" rel="" target="">
+ <span class="menu-text">Trabajos</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/perezp44" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:pedro.j.perez@uv.es" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#desarrollo-de-las-clases" id="toc-desarrollo-de-las-clases" class="nav-link" data-scroll-target="#desarrollo-de-las-clases">Desarrollo de las clases</a></li>
+  <li><a href="#the-plan" id="toc-the-plan" class="nav-link" data-scroll-target="#the-plan">The “plan”</a></li>
+  <li><a href="#logística" id="toc-logística" class="nav-link" data-scroll-target="#logística">Logística</a></li>
+  <li><a href="#evaluación" id="toc-evaluación" class="nav-link" data-scroll-target="#evaluación">Evaluación</a></li>
+  <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">FAQ’s</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/perezp44/intro-ds-23-24.web/edit/master/01-guia-del-curso.qmd" class="toc-action">Editar esta página</a></p><p><a href="https://github.com/perezp44/intro-ds-23-24.web/issues/new" class="toc-action">Informar de un problema</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Guía del curso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>En esta sección os cuento un poco de la filosofía/enfoque del curso; principalmente cómo será la forma de trabajar en clase y en casa. También diré algo sobre la evaluación.</p>
+<p>Es <strong>obligatorio leerla</strong> para <u>decidir si te merece la pena hacer el curso</u></p>
+</div>
+</div>
+<p><br></p>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<section id="resumen" class="level5">
+<h5 class="anchored" data-anchor-id="resumen">Resumen</h5>
+<p>Como posiblemente sepáis, y si no ya os lo contaré yo el primer día de clase, el curso es una introducción a la ciencia de datos con R; de hecho el título del curso debería ser: <code>Introducción a la Ciencia de datos</code>; o de forma más precisa y extensa, “Una introducción a la Ciencia de datos con R para economistas”.</p>
+<p><br></p>
+</section>
+<section id="relación-de-temas" class="level5">
+<h5 class="anchored" data-anchor-id="relación-de-temas">Relación de temas</h5>
+<p>El curso tiene <strong>“sólo” 5 temas</strong>. En el primer tema se presentan los objetivos del curso, junto con los términos y procesos que justifican la asignatura (Big data, Ciencia de Datos, Machine Learning, investigación reproducible…). En el tema 2 se presentan los rudimentos del lenguaje de programación R. Estos conocimientos básicos se irán reforzando durante el curso trabajando en diferentes tópicos y aplicaciones. En el tema 3, se desarrollarán diversos casos de análisis de datos tabulares, el formato más típico en Ciencias Sociales, con los que se irán asentando los conocimientos de programación iniciados en el tema 2. El tema 4 es una introducción a los conceptos básicos del Machine Learning (training set, validation set, etc..), para luego presentar las técnicas o algoritmos de ML básicos y más relacionados con lo que los estudiantes ya han visto en Econometría, ahora presentados desde una óptica diferente, más orientada a la predicción. El quinto y último tema presenta, una vez habéis alcanzado cierta soltura en el manejo de R, una panorámica de tópicos como, por ejemplo, datos espaciales y textuales.</p>
+<p>A pesar de que la guía docente presenta 5 temas, en el curso no trabajaremos estrictamente por temas sino más bien por tópicos: iremos presentando tópicos/ideas/funciones conforme nos vayan haciendo falta para resolver alguna tarea/problema. En esta asignatura creo que es mejor avanzar en el contenido del curso de forma no lineal y priorizar el trabajo práctico y aplicado: avanzaremos sin haber visto en detalle algunos tópicos/ideas, pero volveremos más adelante a ellas; de forma que, durante las primeras sesiones te surgirán muchas dudas, es normal!! Algunas de ellas las contestaré, pero en otras diré: ya las contestaremos más adelante!! Poco a poco iremos profundizando y comprendiendo mejor lo que hacemos. Explicaré con más detalle este punto en clase.</p>
+<p><br></p>
+</section>
+</section>
+<section id="desarrollo-de-las-clases" class="level2">
+<h2 class="anchored" data-anchor-id="desarrollo-de-las-clases">Desarrollo de las clases</h2>
+<p>Las clases serán eminentemente <strong>prácticas</strong>: estaremos buena parte de las sesiones trabajando con el ordenador. A pesar de que el aula en la que se desarrollarán las clases tiene ordenadores, es <strong>muy-muy-muy recomendable</strong> acudir con tu <strong>ordenador portátil</strong>.</p>
+<p>Como ya he dicho varias veces, ek curso es una <strong>introducción a la ciencia de datos con R</strong>, creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que <strong>hay que trabajar todas las semanas</strong> y que <strong>necesitaré vuestra ayuda</strong> para que las clases funcionen para conseguir que aprendamos lo máximo posible sobre R y Ciencia de Datos<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Por primera vez, en esta edición del curso, nos veremos dos días a la semana: martes y miércoles.</p>
+<p>En esta misma web, en la sección <a href="04-calendario.html"><code>Calendario</code></a> detallaré qué haremos en cada sesión, tanto en clase, como antes de venir a clase. Antes de venir a clase tendréis que leer el planning para la próxima sesión y <strong>realizar las tareas</strong> que tengáis asignadas para ese día. Generalmente, las tareas consistirán en leer algún material, pero algunas veces tendréis que realizar alguna tarea que formará parte de la evaluación continua. Lo normal será que el miércoles hagamos una pequeña prueba sobre lo visto el martes previo; por su parte, los martes corregiremos un ejercicio para casa. Como veis, hay que trabajar todas las semanas: si no llevas la materia al día es muy fácil descolgarse.</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Repito!!! , <strong>tendréis que hacer unas tareas antes de venir a clase</strong>. Algunas de ellas las recogeré porque forman parte de la evaluación continua. Podrás ver las tareas y el guión de cada clase en la sección <a href="04-calendario.html"><code>Calendario</code></a> de esta misma web.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<section id="sesiones" class="level5">
+<h5 class="anchored" data-anchor-id="sesiones">Sesiones</h5>
+<p>El curso tiene <strong>15 semanas</strong>, concretamente tendremos clase 15 martes y 13 miércoles, aunque al menos la última sesión estará dedicada a la presentación de los trabajos en grupo.</p>
+<p>Es muy importante la asistencia a clase: por favor, <strong>intentad no faltar a las clases y menos aún a las 4/5 primeras</strong>. En las primeras clases se explican cosas/ideas/conceptos que, no es que sean complicadas, de hecho, una vez se entienden son muy sencillas, pero que no son fáciles de entender por uno mismo sin ayuda. Insisto: <strong>no faltéis a clase, pero menos aún a las primeras!!</strong></p>
+<p><br></p>
+</section>
+<section id="dinámica-de-las-clases" class="level5">
+<h5 class="anchored" data-anchor-id="dinámica-de-las-clases">Dinámica de las clases</h5>
+<p>Ya dentro de clase, la dinámica será la siguiente: el profesor, yo, explicaré una idea/tópico, mostraré una aplicación de ella en el ordenador, para después plantearos un reto o cuestión para que trabajéis la idea/concepto y acabéis de entenderlo. Intentaré<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> repetir este esquema de explicación/aplicación de forma rápida; es decir que veamos cuantos más tópicos mejor.</p>
+<p>Buena parte de las sesiones estaréis resolviendo problemas/cuestiones con el ordenador. Lo ideal es trabajar en parejas, se aprende mucho más y más rápido: lo normal es atascarse de vez en cuando mientras estás resolviendo una tarea, y muchas veces es tu compañero el que te saca del apuro.</p>
+<p>Por favor, insisto en que es una asignatura fácil de aprobar, <strong>PERO</strong> has de trabajar durante el curso, principalmente las primeras clases. Tenéis que tener muy claro que <strong>no podéis venir a clase de espectadores</strong> a ver que ocurre, tenéis que trabajar en clase y haber trabajado en casa, no os podéis quedar atrás. Si te vas quedando atrás, en una o dos clases no entenderás nada, y no porque las cosas que veamos sean difíciles, no, sino que hay que ir paso a paso y, a veces, entenderlas por tu cuenta sí que es complicado. El tener que trabajar semana a semana puede parecer un inconveniente pero es indispensable y al final hace que en los 4 años que se lleva impartiendo el curso hayan aprobado (practicamente) el 100% de estudiantes. Creo que al final las cosas saldrán bien y nos divertiremos y aprenderemos y aprobaréis, otra vez, todos.</p>
+<p><br><br></p>
+</section>
+</section>
+<section id="the-plan" class="level2">
+<h2 class="anchored" data-anchor-id="the-plan">The “plan”</h2>
+<p>Mi idea/plan es <strong>confiar en que os va a gustar la asignatura</strong> y que vais a trabajar lo necesario, tanto en casa como en clase, de forma que podréis seguir sin demasiados problemas las clases. De vez en cuando os tendré que hacer pruebas en el aula que también formarán parte de la evaluación continua.</p>
+<p>Las pruebas saldrán bien, espero, lo que querrá decir que estáis aprendiendo, así que todos estaremos contentos y motivados</p>
+<blockquote class="blockquote">
+<p>Everyone has a plan until they get punched in the mouth — Mike Tyson</p>
+</blockquote>
+<p><br></p>
+</section>
+<section id="logística" class="level2">
+<h2 class="anchored" data-anchor-id="logística">Logística</h2>
+<p>El curso es eminentemente práctico, por lo que es necesario que los estudiantes tengan acceso a un ordenador durante las clases. El aula de clase tiene ordenadores pero, como ya dije, es <strong>muy-muy recomendable que cada estudiante venga a clase con su propio portátil</strong>.</p>
+<p>En el curso utilizaremos diversas piezas de software, principalmente R y RStudio, así que tendrás que tenerlas instaladas en tu ordenador. En la sección <a href="./02-logistica.html"><code>Logística</code></a> tienes información sobre el proceso de instalación.</p>
+<p>Durante el curso utilizaremos diversos recursos: transparencias, ejemplos, ejercicios, bibliografía, etc… Puedes encontrar todos los detalles en la sección <a href="03-materiales.html"><code>Materiales</code></a> de la página web.</p>
+<p><br><br></p>
+</section>
+<section id="evaluación" class="level2">
+<h2 class="anchored" data-anchor-id="evaluación">Evaluación</h2>
+<p>Tal como figura en la <a href="./pdfs/guia-docente.pdf" target="_blank">Guía Docente</a>, el <strong>40% de la nota provendrá de la evaluación continua</strong> y el restante 60% lo aportará el examen final.</p>
+<p>Los detalles concretos acerca de la evaluación continua puedes consultarlos en <a href="https://aulavirtual.uv.es/course/view.php?id=66461" target="_blank"><code>Aula Virtual</code></a>. Hablaré de ello el primer día del curso, aunque quizás fuese mejor, como han hecho en varios países, dejar la evaluación a un algoritmo. Lo puedes leer <a href="https://www.enriquedans.com/2020/09/algoritmos-y-educacion-no-tan-rapido.html" target="_blank">aquí</a> y <a href="https://www.eldiario.es/internacional/boris-johnson-da-marcha-modifica-sistema-usaba-algoritmo-calificar-estudiantes_1_6170221.html" target="_blank">aquí</a>. Evidentemente lo de usar un algoritmo es una broma. Me gustaría pero … aún no lo veo.</p>
+<p><br><br></p>
+</section>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">FAQ’s</h2>
+<p>En esta sección pretendo responder a posibles dudas/preguntas que creo que os pueden pasar por la cabeza antes de iniciar el curso. Si tenéis dudas sobre el curso, hacédmelas llegar por mail o en clase: es mejor tener claro de qué va el curso para si os merece la pena continuar en él o es mejor darse de baja.</p>
+<p>Yo también tengo dudas sobre cómo será el curso: esta va a ser ya la quinta vez que se imparte el curso en la UV pero cada año es diferente: este año las clases no se concentran en un único día de la semana, el viernes, sino que se reparten en dos días, martes y miércoles. Veremos como funciona el cambio.</p>
+<p><br></p>
+<section id="nunca-he-programado-podré-seguir-el-curso" class="level5">
+<h5 class="anchored" data-anchor-id="nunca-he-programado-podré-seguir-el-curso">Nunca he programado ¿podré seguir el curso?</h5>
+<p>Por supuesto. Empezaremos con nivel cero, PERO, lo que si que tengo que deciros es que si tu nivel de conocimientos informáticos y/o de programación no es muy elevado (o nulo) haz el esfuerzo de no perderte las 4-5 primeras clases y tratar de ir entendiéndolo, para eso están las tutorías, <strong>NO lo dejes para el final</strong>, si no, se te hará bola.</p>
+<p><br></p>
+</section>
+<section id="cual-es-el-objetivo-último-del-curso-qué-voy-a-aprender" class="level5">
+<h5 class="anchored" data-anchor-id="cual-es-el-objetivo-último-del-curso-qué-voy-a-aprender">¿Cual es el objetivo último del curso? ¿Qué voy a aprender?</h5>
+<p>Ya he dicho que el curso es una introducción a la Ciencia de Datos con R. Vas a aprender muchas cosas (espero), pero principalmente a utilizar R para hacer análisis de datos.</p>
+<p>Espero que al final del curso seáis capaces de entender código R, replicar los análisis que se publican en sitios como <a href="https://rweekly.org/" target="_blank">Rweekly</a> y ser capaces de hacer análisis de datos propios con R.</p>
+<p><a href="https://perezp44.github.io/intro-ds-22-23-web/07-trabajos_2021-22.html" target="_blank">Aquí</a> tienes los <strong>proyectos que presentaron los estudiantes el curso pasado</strong>. Salieron muy bien!!!</p>
+<p><br></p>
+</section>
+<section id="será-fácil-aprobar" class="level5">
+<h5 class="anchored" data-anchor-id="será-fácil-aprobar">¿Será fácil aprobar?</h5>
+<p>Sí. Creo que te resultará fácil aprobar; de hecho, el año pasado aprobaron todos los que siguieron el curso<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>: todos eran capaces de importar y arreglar datos, mostrar resultados en tablas y gráficos y presentar informes en Rmarkdown. También es verdad que cada año hay 4-5 estudiantes que, por diversas razones, deciden abandonar el curso en la tercera semana para matricularse de otra optativa.</p>
+<p>De verdad que <strong>creo que os gustará y aprenderéis pero … HAS de TRABAJAR, sobre todo al principio</strong>. Así que recalco:</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Insisto otra vez:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Si, por lo que sea, crees que la asignatura no es para ti<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, lo mejor sería darse de baja. Recuerda que <strong>hay que venir a clase y trabajar todas las semanas</strong>.</p>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="acabaremos-el-temario" class="level5">
+<h5 class="anchored" data-anchor-id="acabaremos-el-temario">¿Acabaremos el temario?</h5>
+<p>No lo sé, pero casi seguro que no. El curso tiene <strong>15 semanass</strong> (en realidad 3 horas cada sesión), de forma que deberían ser suficientes para impartir el contenido de 5 temas, pero resulta que los temas, dependiendo de la profundidad con la que los veamos, pueden hacerse muy extensos.</p>
+<p><br></p>
+</section>
+<section id="me-servirá-lo-que-aprenda-en-mi-futuro-trabajo" class="level5">
+<h5 class="anchored" data-anchor-id="me-servirá-lo-que-aprenda-en-mi-futuro-trabajo">¿Me servirá lo que aprenda en mi (futuro) trabajo?</h5>
+<p>Pues no lo sé, depende, pero cada vez es más frecuente que las empresas intenten hacer sus análisis y gestión de datos con R. El año pasado al menos dos estudiantes, que yo sepa, utilizaron R en las empresas en las que estaban haciendo sus prácticas curriculares y otros dos ahora mismo estarán cursando un máster de Análisis de Datos, así que seguro que ahora están usando R.</p>
+<p>Pasado año y medio de la finalización de cada curso académico mando un mail a los estudiantes preguntándoles si les ha sido de utilidad lo aprendido durante el curso. Suelen contestar al mail el 50% de los estudiantes y de sus respuestas puedo, más o menos inferir, que al menos a un 20% de los estudiantes les ha resultado útil ya sea en la elaboración del TFG, en las practicas de empresas, en futuros estudios o en labores profesionales.</p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><p>Al ser una asignatura optativa no deberíamos ser muchos, pero seguramente demasiados para una clase de iniciación a la programación.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Digo intentaré porque también depende de vosotros.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p> … bueno, todos menos uno. Ya os explicaré que pasó con él<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Insisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso. Eso sí, hay que trabajar cada semana, sobre todo las primeras semanas.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Pedro J. Pérez</div>   
+    <div class="nav-footer-center">Hecho con <a href="https://quarto.org">Quarto</a></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/perezp44">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:pedro.j.perez@uv.es">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.de/citations?user=MFlgHdcAAAAJ&amp;hl=en"><i class="ai ai-google-scholar" role="img"></i></a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0001-9375-6330"><i class="ai ai-orcid" role="img"></i></a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

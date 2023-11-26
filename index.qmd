@@ -1,0 +1,42 @@
+---
+title: "<br>**Bienvenidos al curso!!!**<br>"
+image: assets/caratula_web.png
+about:
+  #- https://quarto.org/docs/websites/website-about.html#templates
+  template: trestles  #- {jolla, solana, trestles}
+  #- https://quarto.org/docs/websites/website-about.html#image
+  image-width: 30em  #- 39
+  image-shape: rectangle
+  #- https://quarto.org/docs/websites/website-about.html#links
+  links:
+    - icon: github
+      href: https://github.com/perezp44
+    - icon: envelope
+      url: "mailto:<pedro.j.perez@uv.es>"
+---
+
+
+Bienvenidos a la web de la asignatura **`Programación y manejo de datos en la era del Big Data`** para el curso académico [2023-24]{.underline}
+
+La asignatura es una **introducción a la ciencia de datos con R**: pretende iniciar a los estudiantes en este campo presentando una panorámica de tópicos, y exponiéndoles, quizás por primera vez en la carrera, a la programación. Creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que **hay que trabajar todas las semanas** y que **necesitaré vuestra ayuda** para que las clases funcionen y conseguir aprender lo máximo posible sobre R y Ciencia de Datos.
+
+
+
+En las distintas secciones de la web encontrarás información sobre el curso. Por ejemplo:
+
+- Para obtener más **información acerca del desarrollo del curso** visita la sección [`Guía del curso`](01-guia-del-curso.qmd). 
+
+- Los **materiales** están en [Materiales](03-materiales.qmd).
+
+- Puedes ver los trabajos hechos por estudiantes de ediciones anteriores en [Trabajos](05-trabajos-estudiantes.qmd).
+
+
+
+
+Para decidir si te interesa seguir en la asignatura o elegir otra optativa puedes leer la [`Guía del curso`](01-guia-del-curso.html).
+
+
+::: {.callout-warning appearance="minimal" icon="false"}
+&emsp; **INSISTO**, &emsp; &emsp; lee la [`Guía del curso`](01-guia-del-curso.html) !!!
+:::
+

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Programación y manejo de datos con R (2023-24) – trabajos_2020-21</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../imagenes/uv.jpeg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la busqueda",
+    "search-hide-matches-text": "Esconder resultados adicionales",
+    "search-more-match-text": "hay más resultados en este documento",
+    "search-more-matches-text": "más resultados en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script><link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../imagenes/uv.jpeg" alt="" class="navbar-logo"></a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Programación y manejo de datos con R (2023-24)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="../index.html" rel="" target=""><i class="bi bi-house-door" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../01-guia-del-curso.html" rel="" target="">
+ <span class="menu-text">Guía del curso</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../02-logistica.html" rel="" target="">
+ <span class="menu-text">Logística</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../03-materiales.html" rel="" target="">
+ <span class="menu-text">Materiales</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../04-calendario.html" rel="" target="">
+ <span class="menu-text">Calendario</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../05-trabajos-estudiantes.html" rel="" target="">
+ <span class="menu-text">Trabajos</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/perezp44" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:pedro.j.perez@uv.es" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+<div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+<li>
+<a href="#curso-2020-2021" id="toc-curso-2020-2021" class="nav-link active" data-scroll-target="#curso-2020-2021">Curso 2020-2021</a>
+  <ul class="collapse">
+<li><a href="#trabajos-en-equipo" id="toc-trabajos-en-equipo" class="nav-link" data-scroll-target="#trabajos-en-equipo">Trabajos en equipo</a></li>
+  <li><a href="#trabajos-individuales" id="toc-trabajos-individuales" class="nav-link" data-scroll-target="#trabajos-individuales">Trabajos individuales</a></li>
+  </ul>
+</li>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/perezp44/intro-ds-23-24.web/edit/master/mas-cosas/07-trabajos_2020-21.Rmd" class="toc-action">Editar esta página</a></p><p><a href="https://github.com/perezp44/intro-ds-23-24.web/issues/new" class="toc-action">Informar de un problema</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content"><p><br></p>
+<p><br></p>
+<section id="curso-2020-2021" class="level1"><h1>Curso 2020-2021</h1>
+<p><br></p>
+<div class="blue">
+<p><strong>Trabajos</strong>: los 28 estudiantes del <strong>curso 2020-2021</strong>, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Puedes verlos en los siguientes enlaces:</p>
+</div>
+<p><br><br></p>
+<section id="trabajos-en-equipo" class="level2"><h2 class="anchored" data-anchor-id="trabajos-en-equipo">Trabajos en equipo</h2>
+<p><br></p>
+<ul>
+<li>
+<strong>Marta Oliver Beltrán</strong>, <strong>Carlos Rodríguez Gonzalvo</strong> y <strong>Mar Valldecabres Lull</strong> presentaron el trabajo <a href="https://martaoliver.github.io/trabajo_BigData_equipo/" target="_blank">Análisis de la oferta audiovisual de Netflix</a>. El repo del trabajo está <a href="https://github.com/martaoliver/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://martaoliver.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Juan Carlos García Guardeño</strong>, <strong>Hugo Moneo Hernández</strong> y <strong>Miguel Montalvo Diestro</strong> presentaron el trabajo <a href="https://Miguercios.github.io/trabajo_BigData_equipo/" target="_blank">La incidencia del Covid-19 en la Comunidad Valenciana</a>. El repo del trabajo está <a href="https://github.com/Miguercios/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://Miguercios.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Carlos Corachan Pérez</strong>, <strong>Dairo Smith Quintero Vargas</strong>, <strong>Miguel Silla Rios</strong> y <strong>Daniela Villa Arboleda</strong> presentaron el trabajo <a href="https://Daiquin.github.io/trabajo_BigData_equipo/" target="_blank">Impacto económico del Covid-19 según modelo de desarrollo de los países</a>. El repo del trabajo está <a href="https://github.com/Daiquin/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://Daiquin.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Ignacio Corachan Perez</strong>, <strong>Sergio Escorcia Torres</strong> y <strong>Rodrigo Lara Rodriguez</strong> presentaron el trabajo <a href="https://rodri45l.github.io/trabajo_BigData_equipo/" target="_blank">Análisis del impacto ecológico</a>. El repo del trabajo está <a href="https://github.com/rodri45l/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://rodri45l.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Laura Albert Moscardó</strong>, <strong>Laura Borrás Pariente</strong> y <strong>Daniel Casino Ballesteros</strong> presentaron el trabajo <a href="https://dasdfg098.github.io/trabajo_BigData_equipo/" target="_blank">Nombres y Apellidos en España</a>. El repo del trabajo está <a href="https://github.com/dasdfg098/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://dasdfg098.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Bernardo Cartusciello</strong>, <strong>Vicente Celis</strong> y <strong>José María Fernández</strong> presentaron el trabajo <a href="https://bernicartusciello.github.io/trabajo_BigData_equipo/" target="_blank">Situación del sector aéreo</a>. El repo del trabajo está <a href="https://github.com/bernicartusciello/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://bernicartusciello.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Andreu Esparza i Martinez</strong>, <strong>Ignacio Montava Peralta</strong> y <strong>Noelia Sánchez March</strong> presentaron el trabajo <a href="https://nosan5.github.io/trabajo_BigData_equipo/" target="_blank">Análisis sobre la Covid-19</a>. El repo del trabajo está <a href="https://github.com/nosan5/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://nosan5.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Manuel Jiménez Haro</strong>, <strong>Antonio Langa Lahoz</strong> y <strong>Manuel Rojo López</strong> presentaron el trabajo <a href="https://manujimenez62.github.io/trabajo_BigData_equipo/" target="_blank">Evolución y curiosidades de los Juegos Olímpicos</a>. El repo del trabajo está <a href="https://github.com/manujimenez62/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://manujimenez62.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<strong>Ana Maria Borrás Cebolla</strong>, <strong>Hugo Martin Chisvert</strong> y <strong>Pavlina Dinkova Grozeva</strong> presentaron el trabajo <a href="https://xi765.github.io/trabajo_BigData_equipo/" target="_blank">Turismo en España</a>. El repo del trabajo está <a href="https://github.com/xi765/trabajo_BigData_equipo" target="_blank">aquí</a>. Las <code>slides</code> para la presentación están <a href="https://xi765.github.io/trabajo_BigData_slides/" target="_blank">aquí</a>.</li>
+</ul>
+<p><br></p>
+<hr>
+<p><br></p>
+</section><section id="trabajos-individuales" class="level2"><h2 class="anchored" data-anchor-id="trabajos-individuales">Trabajos individuales</h2>
+<p><br></p>
+<ul>
+<li><p><strong>Noelia Sánchez March</strong> presentó el trabajo <a href="https://nosan5.github.io/trabajo_BigData/" target="_blank">Estudio sobre el Mercado de Trabajo</a>. El repo está <a href="https://github.com/nosan5/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Bernardo Cartusciello</strong> presentó el trabajo <a href="https://bernicartusciello.github.io/trabajo_BigData/" target="_blank">Fórmula 1 2019</a>. El repo está <a href="https://github.com/bernicartusciello/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Vicente Celis Rondon</strong> presentó el trabajo <a href="https://vicentecelisr.github.io/trabajo_BigData/" target="_blank">English Premier League Temporada 2019/2020</a>. El repo está <a href="https://github.com/vicentecelisr/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Pavlina Dinkova Grozeva</strong> presentó el trabajo <a href="https://pavlinadinkova.github.io/trabajo_BigData/" target="_blank">Criminalidad en el mundo</a>. El repo está <a href="https://github.com/pavlinadinkova/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Daniel Casino Ballesteros</strong> presentó el trabajo <a href="https://dasdfg098.github.io/trabajo_BigData/" target="_blank">Datos y estadísticas de Youtube: Bad Gyal</a>. El repo está <a href="https://github.com/dasdfg098/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Ana María Borrás Cebolla</strong> presentó el trabajo <a href="https://AnaMaria1198.github.io/trabajo_BigData/" target="_blank">Energías Renovables</a>. El repo está <a href="https://github.com/AnaMaria1198/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>José María Fernández</strong> presentó el trabajo <a href="https://josemafc.github.io/trabajo_BigData/" target="_blank">Grand Slam Tenis</a>. El repo está <a href="https://github.com/josemafc/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Miguel Montalvo Diestro</strong> presentó el trabajo <a href="https://miguercios.github.io/trabajo_BigData/" target="_blank">Estudio del sector agrícola: La Alcachofa</a>. El repo está <a href="https://github.com/miguercios/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Mar Valldecabres Lull</strong> presentó el trabajo <a href="https://Valldecabres.github.io/trabajo_BigData/" target="_blank">Introspección al mundo del tenis</a>. El repo está <a href="https://github.com/Valldecabres/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Ignacio Montava</strong> presentó el trabajo <a href="https://imontava10.github.io/trabajo_BigData/" target="_blank">Datos interesantes sobre la historia del futbol español</a>. El repo está <a href="https://github.com/imontava10/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Miguel Silla Ríos</strong> presentó el trabajo <a href="https://MiguelSillaRios.github.io/trabajo_BigData/" target="_blank">Evolución del saldo de la balanza por cuenta corriente</a>. El repo está <a href="https://github.com/MiguelSillaRios/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Manuel Rojo López</strong> presentó el trabajo <a href="https://roloma6.github.io/trabajo_BigData/" target="_blank">Los PIGS</a>. El repo está <a href="https://github.com/roloma6/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Marta Oliver Beltrán</strong> presentó el trabajo <a href="https://martaoliver.github.io/trabajo_BigData/" target="_blank">Fútbol femenino</a>. El repo está <a href="https://github.com/martaoliver/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Sergio Escorcia</strong> presentó el trabajo <a href="https://seresto.github.io/trabajo_BigData/" target="_blank">Análisis sobre la Economía Griega</a>. El repo está <a href="https://github.com/seresto/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Hugo Martin Chisvert</strong> presentó el trabajo <a href="https://xi765.github.io/trabajo_BigData/" target="_blank">Análisis del comercio exterior español</a>. El repo está <a href="https://github.com/xi765/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Hugo Moneo</strong> presentó el trabajo <a href="https://hugomn0.github.io/trabajo_BigData/" target="_blank">Delitos en España. Evolución y efectos de la pandemia sobre el número total de infracciones penales registradas</a>. El repo está <a href="https://github.com/hugomn0/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Rodrigo Lara Rodríguez</strong> presentó el trabajo <a href="https://rodri45l.github.io/trabajo_BigData/" target="_blank">Trabajo Macroeconomía Internacional. País : Alemania</a>. El repo está <a href="https://github.com/rodri45l/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Manuel Jiménez Haro</strong> presentó el trabajo <a href="https://manujimenez62.github.io/trabajo_BigData/" target="_blank">Cómo influyen el actor/actriz principal, director y productora en el éxito de una película</a>. El repo está <a href="https://github.com/manujimenez62/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Laura Albert Moscardó</strong> presentó el trabajo <a href="https://laualmos.github.io/trabajo_BigData/" target="_blank">Análisis sobre la Violencia de Género en España</a>. El repo está <a href="https://github.com/laualmos/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Carlos Rodríguez Gonzalvo</strong> presentó el trabajo <a href="https://carlosrodriguezgonzalvo.github.io/trabajo_BigData/" target="_blank">Afectación del COVID19 en el pequeño comercio valenciano</a>. El repo está <a href="https://github.com/carlosrodriguezgonzalvo/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Laura Borrás Pariente</strong> presentó el trabajo <a href="https://laura3699.github.io/trabajo_BigData/" target="_blank">La Desigualdad</a>. El repo está <a href="https://github.com/laura3699/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Nacho Corachan</strong> presentó el trabajo <a href="https://Nacho-CP.github.io/trabajo_BigData/" target="_blank">Análisis BitCoin</a>. El repo está <a href="https://github.com/Nacho-CP/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Antonio Langa</strong> presentó el trabajo <a href="https://Antonio202021.github.io/trabajo_BigData/" target="_blank">Relación del PIBpc de EEUU con las elecciones del 2020</a>. El repo está <a href="https://github.com/Antonio202021/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Dairo Quintero Vargas</strong> presentó el trabajo <a href="https://Daiquin.github.io/trabajo_BigData/" target="_blank">Evolución y efecto del uso fuentes de energía</a>. El repo está <a href="https://github.com/Daiquin/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Carlos Corachan Pérez</strong> presentó el trabajo <a href="https://carcope.github.io/trabajo_BigData/" target="_blank">Comparativa PIB-PIBpc</a>. El repo está <a href="https://github.com/carcope/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Andreu Esparza i Martínez</strong> presentó el trabajo <a href="https://Andreuesparza.github.io/trabajo_BigData/" target="_blank">Analisis de los esports</a>. El repo está <a href="https://github.com/Andreuesparza/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Juan Carlos García Guardeño</strong> presentó el trabajo <a href="https://carlosmanises.github.io/trabajo_BigData/" target="_blank">The Better Life Index</a>. El repo está <a href="https://github.com/carlosmanises/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+<li><p><strong>Daniela Villa</strong> presentó el trabajo <a href="https://daalviar.github.io/trabajo_BigData/" target="_blank">Desigualdad en el mercado laboral</a>. El repo está <a href="https://github.com/daalviar/trabajo_BigData" target="_blank">aquí</a>.</p></li>
+</ul>
+<p><br><br><br></p>
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
+
+</div>
+
+
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Pedro J. Pérez</div>   
+    <div class="nav-footer-center">Hecho con <a href="https://quarto.org">Quarto</a></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/perezp44">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:pedro.j.perez@uv.es">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.de/citations?user=MFlgHdcAAAAJ&amp;hl=en"><i class="ai ai-google-scholar" role="img"></i></a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0001-9375-6330"><i class="ai ai-orcid" role="img"></i></a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+</body></html>

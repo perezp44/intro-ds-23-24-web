@@ -1,0 +1,180 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+---
+
+
+::: {.callout-note appearance="default" icon="false"}
+
+#### Guía del curso
+
+En esta sección os cuento un poco de la filosofía/enfoque del curso; principalmente cómo será la forma de trabajar en clase y en casa. También diré algo sobre la evaluación. 
+
+Es **obligatorio leerla** para [decidir si te merece la pena hacer el curso]{.underline}
+:::
+
+
+<br>
+
+## Introducción
+
+
+##### Resumen
+
+Como posiblemente sepáis, y si no ya os lo contaré yo el primer día de clase, el curso es una introducción a la ciencia de datos con R; de hecho el título del curso debería ser: `Introducción a la Ciencia de datos`; o de forma más precisa y extensa, "Una introducción a la Ciencia de datos con R para economistas". 
+
+<br>
+
+##### Relación de temas
+
+El curso tiene **"sólo" 5 temas**. En el primer tema se presentan los objetivos del curso, junto con los términos y procesos que justifican la asignatura (Big data, Ciencia de Datos, Machine Learning, investigación reproducible...). En el tema 2 se presentan los rudimentos del lenguaje de programación R. Estos conocimientos básicos se irán reforzando durante el curso trabajando en diferentes tópicos y aplicaciones. En el tema 3, se desarrollarán diversos casos de análisis de datos tabulares, el formato más típico en Ciencias Sociales, con los que se irán asentando los conocimientos de programación iniciados en el tema 2. El tema 4 es una introducción a los conceptos básicos del Machine Learning (training set, validation set, etc..), para luego presentar las técnicas o algoritmos de ML básicos y más relacionados con lo que los estudiantes ya han visto en Econometría, ahora presentados desde una óptica diferente, más orientada a la predicción. El quinto y último tema presenta, una vez habéis alcanzado cierta soltura en el manejo de R, una panorámica de tópicos como, por ejemplo, datos espaciales y textuales.
+
+
+A pesar de que la guía docente presenta 5 temas, en el curso no trabajaremos estrictamente por temas sino más bien por tópicos: iremos presentando tópicos/ideas/funciones conforme nos vayan haciendo falta para resolver alguna tarea/problema. En esta asignatura creo que es mejor avanzar en el contenido del curso de forma no lineal y priorizar el trabajo práctico y aplicado: avanzaremos sin haber visto en detalle algunos tópicos/ideas, pero volveremos más adelante a ellas; de forma que, durante las primeras sesiones te surgirán muchas dudas, es normal!! Algunas de ellas las contestaré, pero en otras diré: ya las contestaremos más adelante!! Poco a poco iremos profundizando y comprendiendo mejor lo que hacemos. Explicaré con más detalle este punto en clase.
+
+
+
+<br>
+
+## Desarrollo de las clases
+
+Las clases serán eminentemente **prácticas**: estaremos buena parte de las sesiones trabajando con el ordenador. A pesar de que el aula en la que se desarrollarán las clases tiene ordenadores, es **muy-muy-muy recomendable** acudir con tu **ordenador portátil**.
+
+
+Como ya he dicho varias veces, ek curso es  una **introducción a la ciencia de datos con R**, creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que **hay que trabajar todas las semanas** y que **necesitaré vuestra ayuda** para que las clases funcionen para conseguir que aprendamos lo máximo posible sobre R y Ciencia de Datos^[Al ser una asignatura optativa no deberíamos ser muchos, pero seguramente demasiados para una clase de iniciación a la programación.]. 
+
+
+
+Por primera vez, en esta edición del curso, nos veremos dos días a la semana: martes y miércoles. 
+
+En esta misma web, en la sección [`Calendario`](04-calendario.html) detallaré qué haremos en cada sesión, tanto en clase, como antes de venir a clase. Antes de venir a clase tendréis que leer el planning para la próxima sesión y **realizar las tareas** que tengáis asignadas para ese día. Generalmente, las tareas consistirán en leer algún material, pero algunas veces tendréis que realizar alguna tarea que formará parte de la evaluación continua. Lo normal será que el miércoles hagamos una pequeña prueba sobre lo visto el martes previo; por su parte, los martes corregiremos un ejercicio para casa. Como veis, hay que trabajar todas las semanas: si no llevas la materia al día es muy fácil descolgarse. 
+
+
+::: {.callout-note appearance="minimal" icon="false"}
+Repito!!! , **tendréis que hacer unas tareas antes de venir a clase**. Algunas de ellas las recogeré porque forman parte de la evaluación continua. Podrás ver las tareas y el guión de cada clase en la sección [`Calendario`](04-calendario.html) de esta misma web.
+:::
+
+<br>
+
+##### Sesiones
+
+El curso tiene **15 semanas**, concretamente tendremos clase 15 martes y 13 miércoles, aunque al menos la última sesión estará dedicada a la presentación de los trabajos en grupo.
+
+Es muy importante la asistencia a clase: por favor, **intentad no faltar a las clases y menos aún a las 4/5 primeras**. En las primeras clases se explican cosas/ideas/conceptos que, no es que sean complicadas, de hecho, una vez se entienden son muy sencillas, pero que no son fáciles de entender por uno mismo sin ayuda. Insisto: **no faltéis a clase, pero menos aún a las primeras!!** 
+
+<br>
+
+##### Dinámica de las clases
+
+
+Ya dentro de clase, la dinámica será la siguiente: el profesor, yo, explicaré una idea/tópico, mostraré una aplicación de ella en el ordenador, para después plantearos un reto o cuestión para que trabajéis la idea/concepto y acabéis de entenderlo. Intentaré^[Digo intentaré porque también depende de vosotros.] repetir este esquema de explicación/aplicación de forma rápida; es decir que veamos cuantos más tópicos mejor. 
+
+Buena parte de las sesiones estaréis resolviendo problemas/cuestiones con el ordenador. Lo ideal es trabajar en parejas, se aprende mucho más y más rápido: lo normal es atascarse de vez en cuando mientras estás resolviendo una tarea, y muchas veces es tu compañero el que te saca del apuro.
+
+Por favor, insisto en que es una asignatura fácil de aprobar, **PERO** has de trabajar durante el curso, principalmente las primeras clases. Tenéis que tener muy claro que **no podéis venir a clase de espectadores** a ver que ocurre, tenéis que trabajar en clase y haber trabajado en casa, no os podéis quedar atrás. Si te vas quedando atrás, en una o dos clases no entenderás nada, y no porque las cosas que veamos sean difíciles, no, sino que hay que ir paso a paso y, a veces, entenderlas por tu cuenta sí que es complicado. El tener que trabajar semana a semana puede parecer un inconveniente pero es indispensable y al final hace que en los 4 años que se lleva impartiendo el curso hayan aprobado (practicamente) el 100% de estudiantes. Creo que al final las cosas saldrán bien y nos divertiremos y aprenderemos y aprobaréis, otra vez, todos.
+ 
+
+
+
+<br><br>
+
+## The "plan"
+
+
+Mi idea/plan es **confiar en que os va a gustar la asignatura** y que vais a trabajar lo necesario, tanto en casa como en clase, de forma que podréis seguir sin demasiados problemas las clases. De vez en cuando os tendré que hacer pruebas en el aula que también formarán parte de la evaluación continua. 
+
+Las pruebas saldrán bien, espero, lo que querrá decir que estáis aprendiendo, así que todos estaremos contentos y motivados
+
+
+> Everyone has a plan until they get punched in the mouth --- Mike Tyson
+
+
+
+<br>
+
+## Logística
+
+
+El curso es eminentemente práctico, por lo que es necesario que los estudiantes tengan acceso a un ordenador durante las clases. El aula de clase tiene ordenadores pero, como ya dije, es **muy-muy recomendable que cada estudiante venga a clase con su propio portátil**.
+
+En el curso utilizaremos diversas piezas de software, principalmente R y RStudio, así que tendrás que tenerlas instaladas en tu ordenador. En la sección [`Logística`](02-logistica.qmd) tienes información sobre el proceso de instalación.
+
+
+Durante el curso utilizaremos diversos recursos: transparencias, ejemplos, ejercicios, bibliografía, etc... Puedes encontrar todos los detalles en la sección [`Materiales`](03-materiales.html) de la página web.
+
+
+
+<br><br>
+
+## Evaluación
+
+
+Tal como figura en la [Guía Docente](./pdfs/guia-docente.pdf){target="_blank"}, el **40% de la nota provendrá de la evaluación continua** y el restante 60% lo aportará el examen final.
+
+Los detalles concretos acerca de la evaluación continua puedes consultarlos en [`Aula Virtual`](https://aulavirtual.uv.es/course/view.php?id=66461){target="_blank"}. Hablaré de ello el primer día del curso, aunque quizás fuese mejor, como han hecho en varios países, dejar la evaluación a un algoritmo. Lo puedes leer [aquí](https://www.enriquedans.com/2020/09/algoritmos-y-educacion-no-tan-rapido.html){target="_blank"} y [aquí](https://www.eldiario.es/internacional/boris-johnson-da-marcha-modifica-sistema-usaba-algoritmo-calificar-estudiantes_1_6170221.html){target="_blank"}. Evidentemente lo de usar un algoritmo es una broma. Me gustaría pero ... aún no lo veo.
+
+
+<br><br>
+
+
+## FAQ's
+
+
+
+En esta sección pretendo responder a posibles dudas/preguntas que creo que os pueden pasar por la cabeza antes de iniciar el curso. Si tenéis dudas sobre el curso, hacédmelas llegar por mail o en clase: es mejor tener claro de qué va el curso para si os merece la pena continuar en él o es mejor darse de baja.
+
+
+
+Yo también tengo dudas sobre cómo será el curso: esta va a ser ya la quinta vez que se imparte el curso en la UV pero cada año es diferente: este año las clases no se concentran en un único día de la semana, el viernes, sino que se reparten en dos días, martes y miércoles. Veremos como funciona el cambio.
+
+<br>
+
+##### Nunca he programado ¿podré seguir el curso?
+
+Por supuesto. Empezaremos con nivel cero, PERO, lo que si que tengo que deciros es que si tu nivel de conocimientos informáticos y/o de programación no es muy elevado (o nulo) haz el esfuerzo de no perderte las 4-5 primeras clases y tratar de ir entendiéndolo, para eso están las tutorías, **NO lo dejes para el final**, si no, se te hará bola.
+
+<br>
+
+##### ¿Cual es el objetivo último del curso? ¿Qué voy a aprender?
+
+Ya he dicho que el curso es una introducción a la Ciencia de Datos con R. Vas a aprender muchas cosas (espero), pero principalmente a utilizar R para hacer análisis de datos.
+
+Espero que al final del curso seáis capaces de entender código R, replicar los análisis que se publican en sitios como [Rweekly](https://rweekly.org/){target="_blank"} y ser capaces de hacer análisis de datos propios con R.
+
+[Aquí](https://perezp44.github.io/intro-ds-22-23-web/07-trabajos_2021-22.html){target="_blank"} tienes los **proyectos que presentaron los estudiantes el curso pasado**. Salieron muy bien!!!
+
+
+<br>
+
+##### ¿Será fácil aprobar?
+
+Sí. Creo que te resultará fácil aprobar; de hecho, el año pasado aprobaron todos los que siguieron el curso^[ ... bueno, todos menos uno. Ya os explicaré que pasó con él]: todos eran capaces de importar y arreglar datos, mostrar resultados en tablas y gráficos y presentar informes en Rmarkdown. También es verdad que cada año hay 4-5 estudiantes que, por diversas razones, deciden abandonar el curso en la tercera semana para matricularse de otra optativa. 
+
+De verdad que **creo que os gustará y aprenderéis pero ... HAS de TRABAJAR, sobre todo al principio**. Así que recalco:
+
+
+
+::: {.callout-note appearance="default" icon="false"}
+#### Insisto otra vez:
+Si, por lo que sea, crees que la asignatura no es para ti^[Insisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso. Eso sí, hay que trabajar cada semana, sobre todo las primeras semanas.], lo mejor sería darse de baja. Recuerda que **hay que venir a clase y trabajar todas las semanas**.
+::: 
+
+
+
+
+<br>
+
+##### ¿Acabaremos el temario?
+
+No lo sé, pero casi seguro que no. El curso tiene **15 semanass** (en realidad 3 horas cada sesión), de forma que deberían ser suficientes para impartir el contenido de 5 temas, pero resulta que los temas, dependiendo de la profundidad con la que los veamos, pueden hacerse muy extensos.  
+
+<br>
+
+##### ¿Me servirá lo que aprenda en mi (futuro) trabajo?
+
+Pues no lo sé, depende, pero cada vez es más frecuente que las empresas intenten hacer sus análisis y gestión de datos con R. El año pasado al menos dos estudiantes, que yo sepa, utilizaron R en las empresas en las que estaban haciendo sus prácticas curriculares y otros dos ahora mismo estarán cursando un máster de Análisis de Datos, así que seguro que ahora están usando R.
+
+Pasado año y medio de la finalización de cada curso académico mando un mail a los estudiantes preguntándoles si les ha sido de utilidad lo aprendido durante el curso. Suelen contestar al mail el 50% de los estudiantes y de sus respuestas puedo, más o menos inferir, que al menos a un 20% de los estudiantes les ha resultado útil ya sea en la elaboración del TFG, en las practicas de empresas, en futuros estudios o en labores profesionales.
+
+

@@ -1,0 +1,327 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+toc-title-website: "En esta página"
+toc-title-document: "Indice de contenidos"
+---
+
+
+::: {.callout-note appearance="default" icon="false"}
+## Calendario de clases y **HOMEWORK**: 
+En esta sección os dejaré las **tareas previas a cada clase**. 
+Tenéis que tener muy claro que no podéis venir a clase de espectadores, habrá que trabajar en clase y sobre todo haber trabajado en casa; es decir, cada semana, antes de venir a clase **hay que hacer las tareas previas**. 
+Tenemos 15 semanas de clase Intenta faltar lo menos posible y asiste, sí o sí, a las 5 primeras semanas  
+Iré actualizando este apartado conforme pasen las semanas. Intentaré ajustar y acertar lo más posible con la programación de las clases pero ... , como sabéis, en una clase siempre puede haber incidentes/sorpresas. 
+:::
+
+::: {.callout-warning appearance="default" icon="false"}
+#### RECUERDA que, antes de venir a clase **TENÉIS  que hacer las tareas previas asignadas**
+:::
+
+
+-----------------------
+
+<br>
+
+## week 01 (12 y 13 sept)
+
+<br>
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+- Lo primero que has de hacer es leer el mail que os he mandado. En él os hablo de un cuestionario. No te olvides de contestarlo antes del lunes 11 de septiembre a las 23:59.
+
+- Lee la sección  [`Guía del curso`](01-guia-del-curso.qmd) de la página web del curso.
+  
+- Prepara tu ordenador; es decir, instálate R, RStudio y Quarto. En  [Logistica](02-logistica.qmd){target="_blank"} tienes instrucciones de instalación. Si tienes algún problema con la instalación contacta conmigo por email.
+
+- Lee el primer turorial: [`Tutorial 01: Introducción`](./materiales/tt_01_introduccion.html){target="_blank"}. Es solo leer, no hay que estudiar nada; además se lee fácil. Se trata simplemente de poner en contexto el curso y hablar un poco sobre qué es esto de la "era del Big Data", la ciencia de datos etc ...
+
+
+<br>
+
+##### ¿Qué haremos en la primera semana?
+
+  - Lo primero presentar el curso 
+
+  - Hablar de la evaluación y forma de trabajo en el curso.
+  
+  - Hablar un poco de algunas de las ideas del Tema 1
+  
+  - ¿Cómo trabajaremos con R? Workflow
+  
+  - Ejemplos iniciales
+  
+
+<br>
+
+
+##### Cosas que has de (medio) entender/saber hacer después de la clase
+
+Muchas veces para (medio) entender/saber hacer estas cosas tendrás que asistir a tutorías o estudiar o preguntar a un compañero, o .... 
+
+  - ¿Qué es la ciencia de datos?
+  
+  - ¿Qué es R y RStudio? ¿Y los paquetes?
+
+  - ¿Qué son los ficheros .R? ¿Y los .Rmd y/o .qmd? ¿Y los Rprojects/Qprojects?
+   
+  - Saber interactuar con R a través de Qprojects
+   
+
+<br>
+
+Too much for the first class? Igual sí. Al final veremos lo que podamos. 
+
+-----------------------
+
+<br>
+
+## week 02 (19 y 20 sept)
+
+
+##### **`Homework`** (para hacer antes de ir el mártes a clase) 
+
+- Leer el e-mail que os he mandado a vuestro correo de la UV y hacer (si quieres) las 2 tareas extra-oficiales que allí os cuento. Además, en el mail hay una tercera tarea, está tercera tarea sí es oficial, hay que hacerla.
+
+
+- Leer el [tutorial nº 2](./materiales/tt_02_primeros-pasos-con-R.html){target="_blank"}, es sólo leer. En el tutorial aparece una pequeña explicación de las ventajas de usar Rprojects y hace hincapié en el concepto de **rutas relativas**. Trata de entenderlo, lógicamente, pero si tienes dudas/problemas no pasa nada, lo trabajaremos en profundidad cuando empecemos el tutorial nº 04.
+
+- Configurar RStudio. Para ello tienes que seguir las instrucciones que figuran en el tutorial nº 2, concretamente [aquí](https://perezp44.github.io/intro-ds-23-24-web/materiales/tt_02_primeros-pasos-con-R.html#2_RStudio){target="_blank"}. Es importante que tengamos todos la misma configuración, ya explicaré la razón en clase. Esto es importante hacerlo bien!! También lo explicaré en clase.
+
+
+<br>
+
+
+##### ¿Qué haremos durante la segunda semana?
+
+- Estaremos un buen rato con el ejemplo "ej_000_ejemplo-inicial.R"; es un análisis muy simple, pero ejemplifica bien lo que haremos durante el curso.
+  
+- Utilizaremos el fichero "ej_000_ejemplo-inicial.qmd" para crear una primera capa para entender los ficheros .Rmd/.qmd
+  
+- Ver todo los que podamos de R-base, para ello utilizaremos las [Slides-03: R base](./materiales/slides_03_R-base-01.html){target="_blank"}. Es muy importante entender algunos conceptos como asignación, tipos de datos, estructuras de datos, funciones ...
+
+- Jugar con algunos ejemplos
+
+
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 03 (26 y 27 sept)
+
+
+
+##### **`Homework`** (para hacer antes de ir el mártes a clase) 
+
+- Leer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la segunda entrega, que esta vez **sí forma parte de la evaluación continua**, así que, en realidad es la `entrega_01`. Hay que entregarla antes del lunes a las 23:59.
+
+- La principal tarea que tenéis que hacer está semana es repasar un poco lo que hemos visto y ver si te vas sintiendo cómodo/cómoda en R/RStudio. 
+
+- Leer el **primer apartado** del [Tutorial 03: R base](./materiales/tt_03_R-base.html){target="_blank"}.
+
+- Leer e intentar ejecutar el código de las [Slides-03: R base](./materiales/slides_03_R-base-01.html){target="_blank"}. 
+
+
+<br>
+
+##### ¿Qué haremos en la tercera semana?
+
+- Corregir la primera entrega.
+
+
+- "Empezar y acabar" con el tema de R-base. Para ello utilizaremos las [Slides-03: R base](./materiales/slides_03_R-base-01.html){target="_blank"}.
+
+- Empezar a importar/exportar datos. Para ello usaremos las [Slides-04: Importar y exportar datos](./materiales/slides_04_cargar-datos.html){target="_blank"}.
+
+- Espero que tengamos tiempo para jugar con algunos ejemplos
+  
+  
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 04 (3 y 4 oct)
+
+
+
+##### **`Homework`** (para hacer antes de ir el mártes a clase) 
+
+- Leer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la `entrega_02` que también forma parte de la evaluación continua.
+
+- La principal tarea que tenéis que hacer está semana, otra vez, es "simplemente" repasar un poco lo que hemos visto. Es importante!!
+
+- Leer un poco, lo que puedas del tutorial dedicado a "data munging o data wrangling". Lo tienes [aquí](./materiales/tt_05_data-munging){target="_blank"}. 
+
+
+<br>
+
+##### ¿Qué haremos en la tercera semana?
+
+- Corregir la `entrega_02`
+
+- "Acabar" con el tema de R-base, concretamente la sección dedicada a funciones y paquetes. Para ello utilizaremos las [Slides-03: R base](./materiales/slides_03_R-base-01.html){target="_blank"}.
+
+- Acabar también las slides dedicadas  a importar/exportar datos. Para ello usaremos las [Slides-04: Importar y exportar datos](./materiales/slides_04_cargar-datos.html){target="_blank"}.
+
+- Empezar (ojala!!) una de las partes principales del curso: manejo de datos con R à la tidyverse. Presentaremos ideas/conceptos como “the pipe” y “tidy data” y empezaremos a usar 2 paquetes del tidyverse: tidyr y dplyr, el principal paquete para manipular datos. Para ello utilizaremos las [Slides-05: Data munging](./materiales/slides_05_data-munging){target="_blank"}. 
+
+
+- Alguna vez tendremos tiempo de jugar con ejemplos. Llegará!!
+  
+  
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 05 (10 y 11 oct) 
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
+## week 06 (17 y 18 oct)
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 07 (24 y 25 oct)
+
+
+<br>
+
+<br>
+
+-----------------------
+
+<br>
+
+
+## week 08 ([31 de octubre]{.underline})
+
+<br>
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 09 (7 y 8 nov)
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
+## week 10 (14 y 15 nov) ⁉️
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 11 (21 y 22 nov)
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 12 (28 y 29 dic)
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 13 ([5 de diciembre]{.underline}) 
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
+
+## week 14 (12 y 13 dic)
+
+
+<br>
+
+-----------------------
+
+<br>
+
+## week 15 (19 y 20  dic) 👩‍🎓🧑‍🎄
+
+<br>
+
+##### **`Homework`** (para hacer antes de ir a clase) 
+
+
+- Acabar y dejar chulos-chulos los trabajos en equipo. No os olvidéis de subir la última versión a Github
+
+- Mandar a tu profesor la última versión del trabajo en equipo.
+
+<br>
+
+##### ¿Qué haremos en clase?
+
+- Yo, relajarme y escuchar. 
+
+- Vosotros, 👩‍🎓, sorprenderme con vuestras fantásticas presentaciones. Bueno, no pasa nada si alguna sale tan solo regular. El 🙌  👏 👏 lo vais a tener igual.
+
+- Ánimo con los trabajos y presentación!!!
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
+## Examen final 🏁 
+
+- El examen final será el lunes **25 de enero** (de 2024). No patiu, estaréis todos ya aprobados. Espero!!
+
+
+<br><br>
+
