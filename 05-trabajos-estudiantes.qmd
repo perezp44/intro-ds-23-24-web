@@ -15,8 +15,15 @@ Como parte de la evaluación continua, los estudiantes del curso 2023-24, elabor
 
 ### Trabajos en equipo
 
--   **Juan Antonio Abello**, **Alessio Di Gennaro** y **Anaïs Rosschaert** presentaron el trabajo [ Evolución comparativa de la inflación en España
-](https://aanais02.github.io/trabajo_BigData_equipo/my_trabajo_BigData.html){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aanais02/trabajo_BigData_equipo){target="_blank"}.
+<br>
+
+-   **Juan Antonio Abello**, **Alessio Di Gennaro** y **Anaïs Rosschaert** presentaron el trabajo [ Evolución comparativa de la inflación en España](https://aanais02.github.io/trabajo_BigData_equipo/my_trabajo_BigData.html){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aanais02/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-   **Cristina Tormos de Lamo** y **Manuel Gimeno Llido** presentaron el trabajo [Hits Spotify 2023 y el caso de Feid](https://ctorm27.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está 
+[aquí](https://github.com/ctorm27/trabajo_BigData_equipo){target="_blank"}.
+
 
 
 <br><br>
