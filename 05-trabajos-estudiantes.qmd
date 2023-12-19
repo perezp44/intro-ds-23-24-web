@@ -25,6 +25,13 @@ Como parte de la evaluación continua, los estudiantes del curso 2023-24, elabor
 [aquí](https://github.com/ctorm27/trabajo_BigData_equipo){target="_blank"}.
 
 
+<br>
+
+
+
+- **Ángel Martínez Albert **, **Luis Aaron Alarcón Saiz** y **Manuel Lloret Pineda** presentaron el trabajo [Análisis general de las regiones de España](https://manulloret.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/manulloret/trabajo_BigData_equipo){target="_blank"}.
+
+
 
 <br><br>
 
