@@ -40,6 +40,11 @@ Como parte de la evaluación continua, los estudiantes del curso 2023-24, elabor
 
 -  **Juan Bosco Pujol Cerdá** y **Javier Belenguer Esteban** presentaron el trabajo [El encarecimiento del coste de vida en España](https://Boskarro.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Boskarro/trabajo_BigData_equipo){target="_blank"}.
 
+<br>
+
+-   **Alejandro Lucas**, **Adrián Guijarro** y **Luis Díaz** presentaron el trabajo [Lenguajes de programación: evolución y programación en economía](https://aluse33.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aluse33/trabajo_BigData_equipo){target="_blank"}.
+
+
 <br><br>
 
 
