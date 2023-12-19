@@ -32,6 +32,13 @@ Como parte de la evaluación continua, los estudiantes del curso 2023-24, elabor
 - **Ángel Martínez Albert **, **Luis Aaron Alarcón Saiz** y **Manuel Lloret Pineda** presentaron el trabajo [Análisis general de las regiones de España](https://manulloret.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/manulloret/trabajo_BigData_equipo){target="_blank"}.
 
 
+<br>
+
+-  **Dana Bauer**, **Elena Paredes** y **Ricardo Freire** presentaron el trabajo [Análisis de la Industria Cinematográfica](https://ricardofreirev.github.io/trabajo_BigData_equipo){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ricardofreirev/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-  **Juan Bosco Pujol Cerdá** y **Javier Belenguer Esteban** presentaron el trabajo [El encarecimiento del coste de vida en España](https://Boskarro.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Boskarro/trabajo_BigData_equipo){target="_blank"}.
 
 <br><br>
 
