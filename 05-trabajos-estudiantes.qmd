@@ -45,6 +45,11 @@ Como parte de la evaluación continua, los estudiantes del curso 2023-24, elabor
 -   **Alejandro Lucas**, **Adrián Guijarro** y **Luis Díaz** presentaron el trabajo [Lenguajes de programación: evolución y programación en economía](https://aluse33.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aluse33/trabajo_BigData_equipo){target="_blank"}.
 
 
+<br>
+
+- **Saúl Gil Pérez**, **Pedro Peñalver Cañigueral* y *Joel Seguí Far* presentaron el trabajo [La vivienda, un bien innalcanzable para la juventud](https://colpitodeleche.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/copitodeleche/trabajo_BigData_equipo/){target="_blank"}
+
+
 <br><br>
 
 
