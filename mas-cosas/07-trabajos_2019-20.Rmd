@@ -1,0 +1,57 @@
+---
+output:
+  html_document:
+    #css: !expr here::here("assets", "styles_pjp.css") 
+    #css: assets/styles_pjp.css
+    theme: united #cerulean  #o flatly(gris)  united (naranja) spacelab(azulito) o yeti o faltly o sandstone
+    #highlight: kate 
+    self_contained: yes
+    number_sections: no
+    #includes:
+       #in_header: google-analytics.html
+    toc: true
+    toc_float: true
+    #code_folding: show
+    #self_contained: TRUE
+---
+
+
+<br>
+
+
+<br>
+
+# Curso 2019-2020
+
+<br>
+
+<div class = "blue">
+**Trabajos**: los 30 estudiantes de la primera edición del curso, alla por 2019-2020, tuvieron que presentar un trabajo en equipo como parte de la evaluación continua. 
+</div>
+
+
+<br><br>
+
+## Trabajos en equipo
+
+<br>
+
+En la primera edición del curso le dedicamos poco tiempo al proyecto: sólo aportaba 1,25 puntos de la nota final. No le dedicamos tiempo a pulirlos, pero aún así salieron bastante bien. Aquí tienes una muestra de los proyectos que presentaron los estudiantes en el curso 2019-2020:
+
+- `Elecciones 28-A`: las [Slides](https://raw.githack.com/jcotanda/elecciones28A/master/slides.html#1), el [Informe](https://raw.githack.com/jcotanda/elecciones28A/master/report.html) y el [repo](https://github.com/jcotanda/elecciones28A)
+
+- `Proyecto-AGA`: las [Slides](https://raw.githack.com/andreu2398/Project-AGA/master/Presentacio.html){target="_blank"}, el [Informe](https://raw.githack.com/andreu2398/Project-AGA/master/Project-AGA--.Rmd--final.html){target="_blank"} y el [repo](https://github.com/andreu2398/Project-AGA){target="_blank"}
+
+- `La revolución del triple en la NBA`: las [Slides](https://raw.githack.com/7antoniosegovia/proyecto_eco_uv/master/NBA_Proyecto/presentacion.html){target="_blank"}, el [Informe](https://raw.githack.com/7antoniosegovia/proyecto_eco_uv/master/NBA_Proyecto/script_informe.html){target="_blank"} y el [repo](https://github.com/7antoniosegovia/proyecto_eco_uv){target="_blank"}
+
+- `Delitos en Europa`: las [Slides](https://raw.githack.com/teodoromouniertebas/ProyectoTeodoroAdrian/master/Proyecto_final_R/Slides/Presentacio.html){target="_blank"}, el [Informe](https://raw.githack.com/teodoromouniertebas/ProyectoTeodoroAdrian/master/Proyecto_final_R/Proyecto/Proyecto-Final-R.html){target="_blank"} y el [repo](https://github.com/teodoromouniertebas/ProyectoTeodoroAdrian){target="_blank"}
+
+<br>
+
+El resto de trabajos están en el [repo del curso 2019-2020](https://github.com/perezp44/tutoriales_intro_DS). No tendrás fácil verlos porque no les enseñé a desplegar sus proyectos en una web. Fallo mio!!! pero es que a todo no se llega.
+
+<br><br>
+
+------------------------
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

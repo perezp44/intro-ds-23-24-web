@@ -1,0 +1,387 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenidos al curso!!!",
+    "section": "",
+    "text": "Bienvenidos a la web de la asignatura Programación y manejo de datos en la era del Big Data para el curso académico 2023-24\nLa asignatura es una introducción a la ciencia de datos con R: pretende iniciar a los estudiantes en este campo presentando una panorámica de tópicos, y exponiéndoles, quizás por primera vez en la carrera, a la programación. Creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que hay que trabajar todas las semanas y que necesitaré vuestra ayuda para que las clases funcionen y conseguir aprender lo máximo posible sobre R y Ciencia de Datos.\nEn las distintas secciones de la web encontrarás información sobre el curso. Por ejemplo:\n\nPara obtener más información acerca del desarrollo del curso visita la sección Guía del curso.\nLos materiales están en Materiales.\nPuedes ver los trabajos hechos por estudiantes de ediciones anteriores en Trabajos.\n\nPara decidir si te interesa seguir en la asignatura o elegir otra optativa puedes leer la Guía del curso.\n\n\n\n\n\n\n  INSISTO,     lee la Guía del curso !!!"
+  },
+  {
+    "objectID": "04-calendario.html",
+    "href": "04-calendario.html",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Calendario de clases y HOMEWORK:\n\n\n\nEn esta sección os dejaré las tareas previas a cada clase. Tenéis que tener muy claro que no podéis venir a clase de espectadores, habrá que trabajar en clase y sobre todo haber trabajado en casa; es decir, cada semana, antes de venir a clase hay que hacer las tareas previas. Tenemos 15 semanas de clase Intenta faltar lo menos posible y asiste, sí o sí, a las 5 primeras semanas\nIré actualizando este apartado conforme pasen las semanas. Intentaré ajustar y acertar lo más posible con la programación de las clases pero … , como sabéis, en una clase siempre puede haber incidentes/sorpresas."
+  },
+  {
+    "objectID": "04-calendario.html#week-01-12-y-13-sept",
+    "href": "04-calendario.html#week-01-12-y-13-sept",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 01 (12 y 13 sept)",
+    "text": "week 01 (12 y 13 sept)\n\n\nHomework (para hacer antes de ir a clase)\n\nLo primero que has de hacer es leer el mail que os he mandado. En él os hablo de un cuestionario. No te olvides de contestarlo antes del lunes 11 de septiembre a las 23:59.\nLee la sección Guía del curso de la página web del curso.\nPrepara tu ordenador; es decir, instálate R, RStudio y Quarto. En Logistica tienes instrucciones de instalación. Si tienes algún problema con la instalación contacta conmigo por email.\nLee el primer turorial: Tutorial 01: Introducción. Es solo leer, no hay que estudiar nada; además se lee fácil. Se trata simplemente de poner en contexto el curso y hablar un poco sobre qué es esto de la “era del Big Data”, la ciencia de datos etc …\n\n\n\n\n¿Qué haremos en la primera semana?\n\nLo primero presentar el curso\nHablar de la evaluación y forma de trabajo en el curso.\nHablar un poco de algunas de las ideas del Tema 1\n¿Cómo trabajaremos con R? Workflow\nEjemplos iniciales\n\n\n\n\nCosas que has de (medio) entender/saber hacer después de la clase\nMuchas veces para (medio) entender/saber hacer estas cosas tendrás que asistir a tutorías o estudiar o preguntar a un compañero, o ….\n\n¿Qué es la ciencia de datos?\n¿Qué es R y RStudio? ¿Y los paquetes?\n¿Qué son los ficheros .R? ¿Y los .Rmd y/o .qmd? ¿Y los Rprojects/Qprojects?\nSaber interactuar con R a través de Qprojects\n\n\nToo much for the first class? Igual sí. Al final veremos lo que podamos."
+  },
+  {
+    "objectID": "04-calendario.html#week-02-19-y-20-sept",
+    "href": "04-calendario.html#week-02-19-y-20-sept",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 02 (19 y 20 sept)",
+    "text": "week 02 (19 y 20 sept)\n\nHomework (para hacer antes de ir el mártes a clase)\n\nLeer el e-mail que os he mandado a vuestro correo de la UV y hacer (si quieres) las 2 tareas extra-oficiales que allí os cuento. Además, en el mail hay una tercera tarea, está tercera tarea sí es oficial, hay que hacerla.\nLeer el tutorial nº 2, es sólo leer. En el tutorial aparece una pequeña explicación de las ventajas de usar Rprojects y hace hincapié en el concepto de rutas relativas. Trata de entenderlo, lógicamente, pero si tienes dudas/problemas no pasa nada, lo trabajaremos en profundidad cuando empecemos el tutorial nº 04.\nConfigurar RStudio. Para ello tienes que seguir las instrucciones que figuran en el tutorial nº 2, concretamente aquí. Es importante que tengamos todos la misma configuración, ya explicaré la razón en clase. Esto es importante hacerlo bien!! También lo explicaré en clase.\n\n\n\n\n¿Qué haremos durante la segunda semana?\n\nEstaremos un buen rato con el ejemplo “ej_000_ejemplo-inicial.R”; es un análisis muy simple, pero ejemplifica bien lo que haremos durante el curso.\nUtilizaremos el fichero “ej_000_ejemplo-inicial.qmd” para crear una primera capa para entender los ficheros .Rmd/.qmd\nVer todo los que podamos de R-base, para ello utilizaremos las Slides-03: R base. Es muy importante entender algunos conceptos como asignación, tipos de datos, estructuras de datos, funciones …\nJugar con algunos ejemplos"
+  },
+  {
+    "objectID": "04-calendario.html#week-03-26-y-27-sept",
+    "href": "04-calendario.html#week-03-26-y-27-sept",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 03 (26 y 27 sept)",
+    "text": "week 03 (26 y 27 sept)\n\nHomework (para hacer antes de ir el mártes a clase)\n\nLeer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la segunda entrega, que esta vez sí forma parte de la evaluación continua, así que, en realidad es la entrega_01. Hay que entregarla antes del lunes a las 23:59.\nLa principal tarea que tenéis que hacer está semana es repasar un poco lo que hemos visto y ver si te vas sintiendo cómodo/cómoda en R/RStudio.\nLeer el primer apartado del Tutorial 03: R base.\nLeer e intentar ejecutar el código de las Slides-03: R base.\n\n\n\n\n¿Qué haremos en la tercera semana?\n\nCorregir la primera entrega.\n“Empezar y acabar” con el tema de R-base. Para ello utilizaremos las Slides-03: R base.\nEmpezar a importar/exportar datos. Para ello usaremos las Slides-04: Importar y exportar datos.\nEspero que tengamos tiempo para jugar con algunos ejemplos"
+  },
+  {
+    "objectID": "04-calendario.html#week-04-3-y-4-oct",
+    "href": "04-calendario.html#week-04-3-y-4-oct",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 04 (3 y 4 oct)",
+    "text": "week 04 (3 y 4 oct)\n\nHomework (para hacer antes de ir el mártes a clase)\n\nLeer el e-mail que os he mandado a vuestro correo de la UV. Allí están los detalles de la entrega_02 que también forma parte de la evaluación continua.\nLa principal tarea que tenéis que hacer está semana, otra vez, es “simplemente” repasar un poco lo que hemos visto. Es importante!!\nLeer un poco, lo que puedas del tutorial dedicado a “data munging o data wrangling”. Lo tienes aquí.\n\n\n\n\n¿Qué haremos en la tercera semana?\n\nCorregir la entrega_02\n“Acabar” con el tema de R-base, concretamente la sección dedicada a funciones y paquetes. Para ello utilizaremos las Slides-03: R base.\nAcabar también las slides dedicadas a importar/exportar datos. Para ello usaremos las Slides-04: Importar y exportar datos.\nEmpezar (ojala!!) una de las partes principales del curso: manejo de datos con R à la tidyverse. Presentaremos ideas/conceptos como “the pipe” y “tidy data” y empezaremos a usar 2 paquetes del tidyverse: tidyr y dplyr, el principal paquete para manipular datos. Para ello utilizaremos las Slides-05: Data munging.\nAlguna vez tendremos tiempo de jugar con ejemplos. Llegará!!"
+  },
+  {
+    "objectID": "04-calendario.html#week-05-10-y-11-oct",
+    "href": "04-calendario.html#week-05-10-y-11-oct",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 05 (10 y 11 oct)",
+    "text": "week 05 (10 y 11 oct)"
+  },
+  {
+    "objectID": "04-calendario.html#week-06-17-y-18-oct",
+    "href": "04-calendario.html#week-06-17-y-18-oct",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 06 (17 y 18 oct)",
+    "text": "week 06 (17 y 18 oct)"
+  },
+  {
+    "objectID": "04-calendario.html#week-07-24-y-25-oct",
+    "href": "04-calendario.html#week-07-24-y-25-oct",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 07 (24 y 25 oct)",
+    "text": "week 07 (24 y 25 oct)"
+  },
+  {
+    "objectID": "04-calendario.html#week-08-31-de-octubre",
+    "href": "04-calendario.html#week-08-31-de-octubre",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 08 (31 de octubre)",
+    "text": "week 08 (31 de octubre)"
+  },
+  {
+    "objectID": "04-calendario.html#week-09-7-y-8-nov",
+    "href": "04-calendario.html#week-09-7-y-8-nov",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 09 (7 y 8 nov)",
+    "text": "week 09 (7 y 8 nov)"
+  },
+  {
+    "objectID": "04-calendario.html#week-10-14-y-15-nov",
+    "href": "04-calendario.html#week-10-14-y-15-nov",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 10 (14 y 15 nov) ⁉️",
+    "text": "week 10 (14 y 15 nov) ⁉️"
+  },
+  {
+    "objectID": "04-calendario.html#week-11-21-y-22-nov",
+    "href": "04-calendario.html#week-11-21-y-22-nov",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 11 (21 y 22 nov)",
+    "text": "week 11 (21 y 22 nov)"
+  },
+  {
+    "objectID": "04-calendario.html#week-12-28-y-29-dic",
+    "href": "04-calendario.html#week-12-28-y-29-dic",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 12 (28 y 29 dic)",
+    "text": "week 12 (28 y 29 dic)"
+  },
+  {
+    "objectID": "04-calendario.html#week-13-5-de-diciembre",
+    "href": "04-calendario.html#week-13-5-de-diciembre",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 13 (5 de diciembre)",
+    "text": "week 13 (5 de diciembre)"
+  },
+  {
+    "objectID": "04-calendario.html#week-14-12-y-13-dic",
+    "href": "04-calendario.html#week-14-12-y-13-dic",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 14 (12 y 13 dic)",
+    "text": "week 14 (12 y 13 dic)"
+  },
+  {
+    "objectID": "04-calendario.html#week-15-19-y-20-dic",
+    "href": "04-calendario.html#week-15-19-y-20-dic",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "week 15 (19 y 20 dic) 👩‍🎓🧑‍🎄",
+    "text": "week 15 (19 y 20 dic) 👩‍🎓🧑‍🎄\n\n\nHomework (para hacer antes de ir a clase)\n\nAcabar y dejar chulos-chulos los trabajos en equipo. No os olvidéis de subir la última versión a Github\nMandar a tu profesor la última versión del trabajo en equipo.\n\n\n\n\n¿Qué haremos en clase?\n\nYo, relajarme y escuchar.\nVosotros, 👩‍🎓, sorprenderme con vuestras fantásticas presentaciones. Bueno, no pasa nada si alguna sale tan solo regular. El 🙌 👏 👏 lo vais a tener igual.\nÁnimo con los trabajos y presentación!!!"
+  },
+  {
+    "objectID": "04-calendario.html#examen-final",
+    "href": "04-calendario.html#examen-final",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Examen final 🏁",
+    "text": "Examen final 🏁\n\nEl examen final será el lunes 25 de enero (de 2024). No patiu, estaréis todos ya aprobados. Espero!!"
+  },
+  {
+    "objectID": "03-materiales.html",
+    "href": "03-materiales.html",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Materiales de clase\n\n\n\nEn el curso usaremos diversos tipos de materiales, los principales son:\n\nSlides : las transparencias (o slides) que usaré durante las clases.\nTutoriales : digamos que son los apuntes/libro oficial del curso. Tenéis que ir leyéndolos poco a poco. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales.\nGuiones de clase/Ejemplos/Ejercicios : cada sesión del curso tendrá un guión asociado con los materiales a usar en esa clase. Los iré colgando conforme avancen las clases."
+  },
+  {
+    "objectID": "03-materiales.html#slides",
+    "href": "03-materiales.html#slides",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Slides",
+    "text": "Slides\n\nSlides-00: Presentación\nSlides-01: Tema 1\nSlides-02: Primeros pasos\nSlides-03: R base\nSlides-04: Importar y exportar datos\nSlides-05: Data munging\nSlides-06(A): ggplot2 (primeras ideas)\nSlides-06(B): ggplot2 (más elementos)\nSlides-06(C): ggplot2 (distintos tipos de gráficos)\nSlides-07(A): Rmarkdown (primeras ideas, bye bye)\nSlides-07(B): Intro a Quarto\nSlides-07(C): Webs con Quarto"
+  },
+  {
+    "objectID": "03-materiales.html#tutoriales",
+    "href": "03-materiales.html#tutoriales",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Tutoriales",
+    "text": "Tutoriales\n\nPrefacio\nTutorial 01: Introducción\nTutorial 02: Workflow\nTutorial 03: R base\nTutorial 04: Cargar datos\nTutorial 05: Data munging\nTutorial 06: ggplot2\nTutorial 07: Rmarkdown\nTutorial 08: Tablas con Rmarkdown\nTutorial 09: Introducción a GIS con R\nTutorial 10: Un poco de EDA y modelos"
+  },
+  {
+    "objectID": "03-materiales.html#guiones-de-clase",
+    "href": "03-materiales.html#guiones-de-clase",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Guiones de clase",
+    "text": "Guiones de clase\n\nWeek 01\nWeek 03\nWeek 07"
+  },
+  {
+    "objectID": "03-materiales.html#plantillas-para-los-trabajos",
+    "href": "03-materiales.html#plantillas-para-los-trabajos",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Plantillas para los trabajos",
+    "text": "Plantillas para los trabajos\n\nPlantillas para trabajos individuales y en equipo"
+  },
+  {
+    "objectID": "03-materiales.html#bibliografía",
+    "href": "03-materiales.html#bibliografía",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Bibliografía",
+    "text": "Bibliografía\n\nHadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023): R for Data Science (2e). https://r4ds.hadley.nz/\nGrolemund, G., Wickham, H. (2019): R para Ciencia de Datos. https://es.r4ds.hadley.nz/\nGrolemund, G., Wickham, H. (2016): R for Data Science, OReilly. https://r4ds.had.co.nz/\nPeng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. https://bookdown.org/rdpeng/exdata/\nJames, G., Witten, E., Hastie T. y Tibshirani, R. (2015): An Introduction to Statistical Learning with applications in R. http://www-bcf.usc.edu/~gareth/ISL/\nRafael A. Irizarry: Introduction to Data Science (Data Analysis and Prediction Algorithms with R). http://rafalab.dfci.harvard.edu/dsbook/\nAlbert Rapp, Yet Again: R + Data Science, https://yards.albert-rapp.de/\nJohn P. Helveston: Curso Intro to Programming for Analytics. https://p4a.seas.gwu.edu/2023-Spring/\nChester Ismay & Albert Y. Kim: Statistical Inference via Data Science (A ModernDive into R and the Tidyverse). https://moderndive.com/index.html\nCurso Data Science in a box. https://datasciencebox.org/\nB. S. Baumer, D. T. Kaplan, and N. J. Horton: Modern Data Science with R. https://mdsr-book.github.io/mdsr3e/"
+  },
+  {
+    "objectID": "03-materiales.html#más-bibliografíarecursos",
+    "href": "03-materiales.html#más-bibliografíarecursos",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Más bibliografía/Recursos",
+    "text": "Más bibliografía/Recursos\nLa comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc….\nRecursos para buscar inspiración para tus proyectos\n\nR-weekly: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte aquí.\nR-bloggers: Un agregador de blogs relacionados con R.\nKaggle: plataforma para aprender ML. Encontrarás datos y análisis de estos.\nTidy Tuesday: cada semana lanzan una competición de visualización con unos datos.\n\n\nMás recursos\n\nQuick-R\nr-statistics.co\nModern Drive: un libro, en realidad un bookdown, que me gusta.\nswirl: swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!\nR views: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, aquí tienes el de julio de 2020.\nStack Overflow: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R.\n\n\nPropuestas para aprender R\n\nHow to get started with Data Science using R\nTutorials for learning R\n\n\nNecesito un paquete para …\n\nListado sencillo\nListado completo de CRAN agrupado por temática\nAWESOME list de pkgs\nListado de pkgs agrupados por fase del análisis\n\n\nAwesome list\nMucha gente hace sus propias listas de recursos R, aquí tienes algunas:\n\nAwesome R Learning Resources\nLearning R resources\nwww.learnr4free.com"
+  },
+  {
+    "objectID": "02-logistica.html",
+    "href": "02-logistica.html",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Logística\n\n\n\nEn el curso utilizaremos ordenadores y algunos programas y servicios informáticos. En esta sección explicaré los detalles de instalación y/o uso"
+  },
+  {
+    "objectID": "02-logistica.html#programas-instalación",
+    "href": "02-logistica.html#programas-instalación",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Programas (instalación)",
+    "text": "Programas (instalación)\n\n\n\n\n\n\nInstalación de R, RStudio y Quarto\n\n\n\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que tenemos que instalarlos\n\nHas de instalar los programas en este orden:\n\nR: https://cran.r-project.org/\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/download/\n\n\nPara ello, solamente has de descargar las versiones de los instaladores adecuadas para tu sistema operativo"
+  },
+  {
+    "objectID": "02-logistica.html#instalación-de-paquetes",
+    "href": "02-logistica.html#instalación-de-paquetes",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Instalación de paquetes",
+    "text": "Instalación de paquetes\n\n\n\n\n\n\nInstalación de paquetes\n\n\n\n\n\n\nEn el curso también usaremos algunos paquetes de R, así que tendremos que instalarlos … pero os lo explicaré en clase\nLos paquetes se han de instalar una vez hayas instalado los 3 programas (R, RStudio y Quarto)\n\n\n\n\n\n\n\n\n\n\nInstalación de paquetes: más detalles\n\n\n\n\n\n\nRecuerda que Los paquetes no son necesarios para el primer día del curso, así que os ayudaré a instalarlos en clase\n\nAlgunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:\n\nSi usas Windows instalaremos Rtools. Aquí puedes descargarte el instalador adecuado\nSi tienes un Mac, tendrás que instalar the Xcode Command Line Tools. Lo normal es que lo tengas ya instalado, si no fuese el caso, aquí te explican como hacerlo. Además, como nos cuentan aquí, si tienes un Mac, es conveniente instalar XQuartz, para ello sólo tienes que buscar el instalador en https://www.xquartz.org/\n\n\nFinalmente, para instalar algunos de los paquetes que usaremos durante el curso tendremos que ejecutar las siguientes instrucciones:\n\n\nCódigo para instalar los paquetes#- instalación de paquetes ---------------------------------\n\ninstall.packages(\"pak\")\n\nmys_pkgs &lt;- c(\"tidyverse\", \"curl\", \"eurostat\", \"here\", \"palmerpenguins\", \"quantmod\", \"rio\", \"gt\", \"DT\", \"gapminder\", \"markdown\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"usethis\", \"janitor\", \"ggthemes\", \"gganimate\", \"perezp44/pjpv.curso.R.2022\", \"sjPlot\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"sf\", \"rcartocolor\", \"rmapshaper\", \"gtExtras\", \"patchwork\", \"magick\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"kableExtra\", \"modelsummary\", \"rpivotTable\", \"widyr\", \"irlba\", \"tmap\")\npak::pkg_install(mys_pkgs)\n\nmys_pkgs &lt;- c(\"GGally\", \"ggtext\", \"Financial-Times/ftplottools\", \"maps\")\npak::pkg_install(mys_pkgs)  \n\nmys_pkgs &lt;- c(\"summarytools\", \"glin/reactable\", \"agstn/dataxray\", \"naniar\")\npak::pkg_install(mys_pkgs)  \n\nmys_pkgs &lt;- c(\"DataExplorer\", \"corrr\", \"inspectdf\", \"explore\", \"stargazer\", \"apaTables\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"easystats\", \"plotly\")\npak::pkg_install(mys_pkgs)\n\n#- finalmente, si te instalas todos los paquetes, se instalarán 284 pkg's aprox. (q ocupan 842 MB aprox.)\npkgs &lt;- pak::pkg_list()\n\n#- normalmente tendrás 2 librerías\n.libPaths()\n#- en la primera tienes los pkgs de \"R-base\": \"C:/Program Files/R/R-4.3.0/library\"   \n#- en la segunda tienes los paquetes q se instala un usuario:  \"C:/Users/Usuario/AppData/Local/R/win-library/4.3\" \n\n\n#- más cosas ---------------------------------------\n# usethis::edit_rstudio_prefs()\n# usethis::use_blank_slate() \n\n# quarto install tool tinytext\n# quarto install tinytex --update-path\n# quarto install tool chromium"
+  },
+  {
+    "objectID": "02-logistica.html#recursos",
+    "href": "02-logistica.html#recursos",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Recursos",
+    "text": "Recursos\n\n\n\n\n\n\n\nSon simplemente enlaces a servicios que (seguramente) usaremos durante el curso\n\n\n\n\n\nEtherpad: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.\nForos del curso: un espacio para resolver preguntas sobre el curso y las tareas para casa.\nCuestionario de Google: Generalmente recogeré los trabajos a través de uploaders o por mail, pero esa función también podría hacerla este cuestionario.\nAula Virtual de la asignatura: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo “oficial”. También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).\nRStudio Cloud Project: En otros cursos este recurso nos resulto muy útil, pero ahora la versión gratuita tiene límite de tiempo así que creo que no lo usaré, pero por si acaso aquí está."
+  },
+  {
+    "objectID": "02-logistica.html#entrega-de-trabajos",
+    "href": "02-logistica.html#entrega-de-trabajos",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Entrega de trabajos",
+    "text": "Entrega de trabajos\nDurante el curso, sobre todo las primeras semanas, os mandaré tareas, algunas para resolver en el aula y otras para resolver en casa. Estas tareas, generalmente, formarán parte de la evaluación continua. Abajo tenéis las instrucciones para la entrega de las tareas:\n\nIntrucciones de entrega de las tareas de la evaluación continua"
+  },
+  {
+    "objectID": "02-logistica.html#materiales-de-clase",
+    "href": "02-logistica.html#materiales-de-clase",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Materiales de clase",
+    "text": "Materiales de clase\nDurante el curso, utilizaremos diversos materiales, puedes encontrarlos en la sección Materiales."
+  },
+  {
+    "objectID": "02-logistica.html#instrucciones-para-el-examen-final",
+    "href": "02-logistica.html#instrucciones-para-el-examen-final",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Instrucciones para el examen final",
+    "text": "Instrucciones para el examen final\n\n\nInstrucciones y un ejemplo de cómo ha de quedar más o menos el documento .html con tus respuestas"
+  },
+  {
+    "objectID": "01-guia-del-curso.html",
+    "href": "01-guia-del-curso.html",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Guía del curso\n\n\n\nEn esta sección os cuento un poco de la filosofía/enfoque del curso; principalmente cómo será la forma de trabajar en clase y en casa. También diré algo sobre la evaluación.\nEs obligatorio leerla para decidir si te merece la pena hacer el curso"
+  },
+  {
+    "objectID": "01-guia-del-curso.html#introducción",
+    "href": "01-guia-del-curso.html#introducción",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Introducción",
+    "text": "Introducción\n\nResumen\nComo posiblemente sepáis, y si no ya os lo contaré yo el primer día de clase, el curso es una introducción a la ciencia de datos con R; de hecho el título del curso debería ser: Introducción a la Ciencia de datos; o de forma más precisa y extensa, “Una introducción a la Ciencia de datos con R para economistas”.\n\n\n\nRelación de temas\nEl curso tiene “sólo” 5 temas. En el primer tema se presentan los objetivos del curso, junto con los términos y procesos que justifican la asignatura (Big data, Ciencia de Datos, Machine Learning, investigación reproducible…). En el tema 2 se presentan los rudimentos del lenguaje de programación R. Estos conocimientos básicos se irán reforzando durante el curso trabajando en diferentes tópicos y aplicaciones. En el tema 3, se desarrollarán diversos casos de análisis de datos tabulares, el formato más típico en Ciencias Sociales, con los que se irán asentando los conocimientos de programación iniciados en el tema 2. El tema 4 es una introducción a los conceptos básicos del Machine Learning (training set, validation set, etc..), para luego presentar las técnicas o algoritmos de ML básicos y más relacionados con lo que los estudiantes ya han visto en Econometría, ahora presentados desde una óptica diferente, más orientada a la predicción. El quinto y último tema presenta, una vez habéis alcanzado cierta soltura en el manejo de R, una panorámica de tópicos como, por ejemplo, datos espaciales y textuales.\nA pesar de que la guía docente presenta 5 temas, en el curso no trabajaremos estrictamente por temas sino más bien por tópicos: iremos presentando tópicos/ideas/funciones conforme nos vayan haciendo falta para resolver alguna tarea/problema. En esta asignatura creo que es mejor avanzar en el contenido del curso de forma no lineal y priorizar el trabajo práctico y aplicado: avanzaremos sin haber visto en detalle algunos tópicos/ideas, pero volveremos más adelante a ellas; de forma que, durante las primeras sesiones te surgirán muchas dudas, es normal!! Algunas de ellas las contestaré, pero en otras diré: ya las contestaremos más adelante!! Poco a poco iremos profundizando y comprendiendo mejor lo que hacemos. Explicaré con más detalle este punto en clase."
+  },
+  {
+    "objectID": "01-guia-del-curso.html#desarrollo-de-las-clases",
+    "href": "01-guia-del-curso.html#desarrollo-de-las-clases",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Desarrollo de las clases",
+    "text": "Desarrollo de las clases\nLas clases serán eminentemente prácticas: estaremos buena parte de las sesiones trabajando con el ordenador. A pesar de que el aula en la que se desarrollarán las clases tiene ordenadores, es muy-muy-muy recomendable acudir con tu ordenador portátil.\nComo ya he dicho varias veces, ek curso es una introducción a la ciencia de datos con R, creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que hay que trabajar todas las semanas y que necesitaré vuestra ayuda para que las clases funcionen para conseguir que aprendamos lo máximo posible sobre R y Ciencia de Datos1.\nPor primera vez, en esta edición del curso, nos veremos dos días a la semana: martes y miércoles.\nEn esta misma web, en la sección Calendario detallaré qué haremos en cada sesión, tanto en clase, como antes de venir a clase. Antes de venir a clase tendréis que leer el planning para la próxima sesión y realizar las tareas que tengáis asignadas para ese día. Generalmente, las tareas consistirán en leer algún material, pero algunas veces tendréis que realizar alguna tarea que formará parte de la evaluación continua. Lo normal será que el miércoles hagamos una pequeña prueba sobre lo visto el martes previo; por su parte, los martes corregiremos un ejercicio para casa. Como veis, hay que trabajar todas las semanas: si no llevas la materia al día es muy fácil descolgarse.\n\n\n\n\n\n\nRepito!!! , tendréis que hacer unas tareas antes de venir a clase. Algunas de ellas las recogeré porque forman parte de la evaluación continua. Podrás ver las tareas y el guión de cada clase en la sección Calendario de esta misma web.\n\n\n\n\n\nSesiones\nEl curso tiene 15 semanas, concretamente tendremos clase 15 martes y 13 miércoles, aunque al menos la última sesión estará dedicada a la presentación de los trabajos en grupo.\nEs muy importante la asistencia a clase: por favor, intentad no faltar a las clases y menos aún a las 4/5 primeras. En las primeras clases se explican cosas/ideas/conceptos que, no es que sean complicadas, de hecho, una vez se entienden son muy sencillas, pero que no son fáciles de entender por uno mismo sin ayuda. Insisto: no faltéis a clase, pero menos aún a las primeras!!\n\n\n\nDinámica de las clases\nYa dentro de clase, la dinámica será la siguiente: el profesor, yo, explicaré una idea/tópico, mostraré una aplicación de ella en el ordenador, para después plantearos un reto o cuestión para que trabajéis la idea/concepto y acabéis de entenderlo. Intentaré2 repetir este esquema de explicación/aplicación de forma rápida; es decir que veamos cuantos más tópicos mejor.\nBuena parte de las sesiones estaréis resolviendo problemas/cuestiones con el ordenador. Lo ideal es trabajar en parejas, se aprende mucho más y más rápido: lo normal es atascarse de vez en cuando mientras estás resolviendo una tarea, y muchas veces es tu compañero el que te saca del apuro.\nPor favor, insisto en que es una asignatura fácil de aprobar, PERO has de trabajar durante el curso, principalmente las primeras clases. Tenéis que tener muy claro que no podéis venir a clase de espectadores a ver que ocurre, tenéis que trabajar en clase y haber trabajado en casa, no os podéis quedar atrás. Si te vas quedando atrás, en una o dos clases no entenderás nada, y no porque las cosas que veamos sean difíciles, no, sino que hay que ir paso a paso y, a veces, entenderlas por tu cuenta sí que es complicado. El tener que trabajar semana a semana puede parecer un inconveniente pero es indispensable y al final hace que en los 4 años que se lleva impartiendo el curso hayan aprobado (practicamente) el 100% de estudiantes. Creo que al final las cosas saldrán bien y nos divertiremos y aprenderemos y aprobaréis, otra vez, todos."
+  },
+  {
+    "objectID": "01-guia-del-curso.html#the-plan",
+    "href": "01-guia-del-curso.html#the-plan",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "The “plan”",
+    "text": "The “plan”\nMi idea/plan es confiar en que os va a gustar la asignatura y que vais a trabajar lo necesario, tanto en casa como en clase, de forma que podréis seguir sin demasiados problemas las clases. De vez en cuando os tendré que hacer pruebas en el aula que también formarán parte de la evaluación continua.\nLas pruebas saldrán bien, espero, lo que querrá decir que estáis aprendiendo, así que todos estaremos contentos y motivados\n\nEveryone has a plan until they get punched in the mouth — Mike Tyson"
+  },
+  {
+    "objectID": "01-guia-del-curso.html#logística",
+    "href": "01-guia-del-curso.html#logística",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Logística",
+    "text": "Logística\nEl curso es eminentemente práctico, por lo que es necesario que los estudiantes tengan acceso a un ordenador durante las clases. El aula de clase tiene ordenadores pero, como ya dije, es muy-muy recomendable que cada estudiante venga a clase con su propio portátil.\nEn el curso utilizaremos diversas piezas de software, principalmente R y RStudio, así que tendrás que tenerlas instaladas en tu ordenador. En la sección Logística tienes información sobre el proceso de instalación.\nDurante el curso utilizaremos diversos recursos: transparencias, ejemplos, ejercicios, bibliografía, etc… Puedes encontrar todos los detalles en la sección Materiales de la página web."
+  },
+  {
+    "objectID": "01-guia-del-curso.html#evaluación",
+    "href": "01-guia-del-curso.html#evaluación",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Evaluación",
+    "text": "Evaluación\nTal como figura en la Guía Docente, el 40% de la nota provendrá de la evaluación continua y el restante 60% lo aportará el examen final.\nLos detalles concretos acerca de la evaluación continua puedes consultarlos en Aula Virtual. Hablaré de ello el primer día del curso, aunque quizás fuese mejor, como han hecho en varios países, dejar la evaluación a un algoritmo. Lo puedes leer aquí y aquí. Evidentemente lo de usar un algoritmo es una broma. Me gustaría pero … aún no lo veo."
+  },
+  {
+    "objectID": "01-guia-del-curso.html#faqs",
+    "href": "01-guia-del-curso.html#faqs",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "FAQ’s",
+    "text": "FAQ’s\nEn esta sección pretendo responder a posibles dudas/preguntas que creo que os pueden pasar por la cabeza antes de iniciar el curso. Si tenéis dudas sobre el curso, hacédmelas llegar por mail o en clase: es mejor tener claro de qué va el curso para si os merece la pena continuar en él o es mejor darse de baja.\nYo también tengo dudas sobre cómo será el curso: esta va a ser ya la quinta vez que se imparte el curso en la UV pero cada año es diferente: este año las clases no se concentran en un único día de la semana, el viernes, sino que se reparten en dos días, martes y miércoles. Veremos como funciona el cambio.\n\n\nNunca he programado ¿podré seguir el curso?\nPor supuesto. Empezaremos con nivel cero, PERO, lo que si que tengo que deciros es que si tu nivel de conocimientos informáticos y/o de programación no es muy elevado (o nulo) haz el esfuerzo de no perderte las 4-5 primeras clases y tratar de ir entendiéndolo, para eso están las tutorías, NO lo dejes para el final, si no, se te hará bola.\n\n\n\n¿Cual es el objetivo último del curso? ¿Qué voy a aprender?\nYa he dicho que el curso es una introducción a la Ciencia de Datos con R. Vas a aprender muchas cosas (espero), pero principalmente a utilizar R para hacer análisis de datos.\nEspero que al final del curso seáis capaces de entender código R, replicar los análisis que se publican en sitios como Rweekly y ser capaces de hacer análisis de datos propios con R.\nAquí tienes los proyectos que presentaron los estudiantes el curso pasado. Salieron muy bien!!!\n\n\n\n¿Será fácil aprobar?\nSí. Creo que te resultará fácil aprobar; de hecho, el año pasado aprobaron todos los que siguieron el curso3: todos eran capaces de importar y arreglar datos, mostrar resultados en tablas y gráficos y presentar informes en Rmarkdown. También es verdad que cada año hay 4-5 estudiantes que, por diversas razones, deciden abandonar el curso en la tercera semana para matricularse de otra optativa.\nDe verdad que creo que os gustará y aprenderéis pero … HAS de TRABAJAR, sobre todo al principio. Así que recalco:\n\n\n\n\n\n\nInsisto otra vez:\n\n\n\nSi, por lo que sea, crees que la asignatura no es para ti4, lo mejor sería darse de baja. Recuerda que hay que venir a clase y trabajar todas las semanas.\n\n\n\n\n\n¿Acabaremos el temario?\nNo lo sé, pero casi seguro que no. El curso tiene 15 semanass (en realidad 3 horas cada sesión), de forma que deberían ser suficientes para impartir el contenido de 5 temas, pero resulta que los temas, dependiendo de la profundidad con la que los veamos, pueden hacerse muy extensos.\n\n\n\n¿Me servirá lo que aprenda en mi (futuro) trabajo?\nPues no lo sé, depende, pero cada vez es más frecuente que las empresas intenten hacer sus análisis y gestión de datos con R. El año pasado al menos dos estudiantes, que yo sepa, utilizaron R en las empresas en las que estaban haciendo sus prácticas curriculares y otros dos ahora mismo estarán cursando un máster de Análisis de Datos, así que seguro que ahora están usando R.\nPasado año y medio de la finalización de cada curso académico mando un mail a los estudiantes preguntándoles si les ha sido de utilidad lo aprendido durante el curso. Suelen contestar al mail el 50% de los estudiantes y de sus respuestas puedo, más o menos inferir, que al menos a un 20% de los estudiantes les ha resultado útil ya sea en la elaboración del TFG, en las practicas de empresas, en futuros estudios o en labores profesionales."
+  },
+  {
+    "objectID": "01-guia-del-curso.html#footnotes",
+    "href": "01-guia-del-curso.html#footnotes",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Notas",
+    "text": "Notas\n\n\nAl ser una asignatura optativa no deberíamos ser muchos, pero seguramente demasiados para una clase de iniciación a la programación.↩︎\nDigo intentaré porque también depende de vosotros.↩︎\n … bueno, todos menos uno. Ya os explicaré que pasó con él↩︎\nInsisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso. Eso sí, hay que trabajar cada semana, sobre todo las primeras semanas.↩︎"
+  },
+  {
+    "objectID": "05-trabajos-estudiantes.html",
+    "href": "05-trabajos-estudiantes.html",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Como parte de la evaluación continua, los estudiantes del curso 2023-24, elaboraron 2 trabajos, uno individual y otro en equipo. Puedes verlos más abajo.\n\n\n\n\nJuan Antonio Abello, Alessio Di Gennaro y Anaïs Rosschaert presentaron el trabajo Evolución comparativa de la inflación en España. El repo del trabajo está aquí.\n\n\n\nCristina Tormos de Lamo y Manuel Gimeno Llido presentaron el trabajo Hits Spotify 2023 y el caso de Feid. El repo del trabajo está aquí.\n\n\n\nÁngel Martínez Albert , Luis Aaron Alarcón Saiz y Manuel Lloret Pineda presentaron el trabajo Análisis general de las regiones de España. El repo del trabajo está aquí.\n\n\n\nDana Bauer, Elena Paredes y Ricardo Freire presentaron el trabajo Análisis de la Industria Cinematográfica. El repo del trabajo está aquí.\n\n\n\nJuan Bosco Pujol Cerdá y Javier Belenguer Esteban presentaron el trabajo El encarecimiento del coste de vida en España. El repo del trabajo está aquí.\n\n\n\nValentina Julieta Arnoletto, Nerea Escribano Soria, Natalia García Gómez y Ana Royo Sánchez presentaron el trabajo “El futuro de los jóvenes”. El repo del trabajo está aquí.\n\n\n\nAlejandro Lucas, Adrián Guijarro y Luis Díaz presentaron el trabajo Lenguajes de programación: evolución y programación en economía. El repo del trabajo está aquí.\n\n\n\nSaúl Gil Pérez, Pedro Peñalver Cañigueral y Joel Seguí Far presentaron el trabajo La vivienda, un bien innalcanzable para la juventud. El repo del trabajo está aquí\n\n\n\nDavid Bayot Serrano, Javier Mascarell Agustin y Carlos Vicedo Albors presentaron el trabajo Análisis económico y demográfico de España. Retos para los jóvenes españoles. El repo del trabajo está aquí.\n\n\n\n\n\n\n\nRicardo Freire presentó el trabajo El Mercado Laboral en los Ojos de LinkedIn. El repo del trabajo está aquí.\nCristina Tormos presentó el trabajo Aterrizajes Meteoríticos. El repo del trabajo está aquí.\nValentina Julieta Arnoletto presentó el trabajo La crisis de Argentina. El repo del trabajo está aquí.\nLuis Aarón Alarcón Saiz presentó el trabajo los AUDIS molan. El repo del trabajo está aquí.\nAdrián Guijarro Mártinez presentó el trabajo PIB español y Capital humano. El repo del trabajo está aquí.\nDana Bauer presento el trabajo Análisis de las mujeres en la Industria Cinematográfica. El repo del trabajo está aquí.\nAlessio Di Gennaro presentó el trabajo Impacto ambiental en números: Emisiones de CO2 y Transición energética española. El repo del trabajo está aquí.\nJoel Seguí Far presentó el trabajo Análisis de la plataforma de streaming NETFLIX. El repo del trabajo está aquí.\nNerea Escribano Soria presentó el trabajo Análisis de las plataformas de streaming. El repo del trabajo está aquí.\nJavier Belenguer Esteban presentó el trabajo Accidentes de tráfico. El repo del trabajo está aquí.\nAlejandro Lucas Serrano presentó el trabajo Arreglando la Economía Española como no lo haría un economista (o cinco excusas para programar). El repo del trabajo está aquí.\nJavier Mascarell Gallego presentó el trabajo Paco Te quiero (El grupo de música barcelonés). El repo del trabajo está aquí.\nJuan Antonio Abello presentó el trabajo Perspectivas Macro: Análisis de Agregados Económicos en España. El repo del trabajo está aquí.\nAna Royo Sánchez presentó el trabajo Análisis de los 10 álbumes de Taylor Swift. El repo del trabajo está aquí.\nÁngel Martínez Albert presentó el trabajo Premier League 2022-2023. El repo del trabajo está aquí.\nDavid Bayot Serrano presentó el trabajo Análisis del mercado de videojuegos. El repo del trabajo está aquí.\nJuan Bosco Pujol presentó el trabajo Ataques de tiburón a lo largo de la historia. El repo del trabajo está aquí.\nPedro Peñalver Cañigueral presentó el trabajo Un vistazo a la inflación en España de las últimas dos décadas. El repo del trabajo está aquí.\nElena Paredes Borrachero presentó el trabajo Análisis general del Speedrunning: Super Mario 64. El repo del trabajo está aquí."
+  },
+  {
+    "objectID": "05-trabajos-estudiantes.html#trabajos-curso-2023-24",
+    "href": "05-trabajos-estudiantes.html#trabajos-curso-2023-24",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "",
+    "text": "Como parte de la evaluación continua, los estudiantes del curso 2023-24, elaboraron 2 trabajos, uno individual y otro en equipo. Puedes verlos más abajo.\n\n\n\n\nJuan Antonio Abello, Alessio Di Gennaro y Anaïs Rosschaert presentaron el trabajo Evolución comparativa de la inflación en España. El repo del trabajo está aquí.\n\n\n\nCristina Tormos de Lamo y Manuel Gimeno Llido presentaron el trabajo Hits Spotify 2023 y el caso de Feid. El repo del trabajo está aquí.\n\n\n\nÁngel Martínez Albert , Luis Aaron Alarcón Saiz y Manuel Lloret Pineda presentaron el trabajo Análisis general de las regiones de España. El repo del trabajo está aquí.\n\n\n\nDana Bauer, Elena Paredes y Ricardo Freire presentaron el trabajo Análisis de la Industria Cinematográfica. El repo del trabajo está aquí.\n\n\n\nJuan Bosco Pujol Cerdá y Javier Belenguer Esteban presentaron el trabajo El encarecimiento del coste de vida en España. El repo del trabajo está aquí.\n\n\n\nValentina Julieta Arnoletto, Nerea Escribano Soria, Natalia García Gómez y Ana Royo Sánchez presentaron el trabajo “El futuro de los jóvenes”. El repo del trabajo está aquí.\n\n\n\nAlejandro Lucas, Adrián Guijarro y Luis Díaz presentaron el trabajo Lenguajes de programación: evolución y programación en economía. El repo del trabajo está aquí.\n\n\n\nSaúl Gil Pérez, Pedro Peñalver Cañigueral y Joel Seguí Far presentaron el trabajo La vivienda, un bien innalcanzable para la juventud. El repo del trabajo está aquí\n\n\n\nDavid Bayot Serrano, Javier Mascarell Agustin y Carlos Vicedo Albors presentaron el trabajo Análisis económico y demográfico de España. Retos para los jóvenes españoles. El repo del trabajo está aquí.\n\n\n\n\n\n\n\nRicardo Freire presentó el trabajo El Mercado Laboral en los Ojos de LinkedIn. El repo del trabajo está aquí.\nCristina Tormos presentó el trabajo Aterrizajes Meteoríticos. El repo del trabajo está aquí.\nValentina Julieta Arnoletto presentó el trabajo La crisis de Argentina. El repo del trabajo está aquí.\nLuis Aarón Alarcón Saiz presentó el trabajo los AUDIS molan. El repo del trabajo está aquí.\nAdrián Guijarro Mártinez presentó el trabajo PIB español y Capital humano. El repo del trabajo está aquí.\nDana Bauer presento el trabajo Análisis de las mujeres en la Industria Cinematográfica. El repo del trabajo está aquí.\nAlessio Di Gennaro presentó el trabajo Impacto ambiental en números: Emisiones de CO2 y Transición energética española. El repo del trabajo está aquí.\nJoel Seguí Far presentó el trabajo Análisis de la plataforma de streaming NETFLIX. El repo del trabajo está aquí.\nNerea Escribano Soria presentó el trabajo Análisis de las plataformas de streaming. El repo del trabajo está aquí.\nJavier Belenguer Esteban presentó el trabajo Accidentes de tráfico. El repo del trabajo está aquí.\nAlejandro Lucas Serrano presentó el trabajo Arreglando la Economía Española como no lo haría un economista (o cinco excusas para programar). El repo del trabajo está aquí.\nJavier Mascarell Gallego presentó el trabajo Paco Te quiero (El grupo de música barcelonés). El repo del trabajo está aquí.\nJuan Antonio Abello presentó el trabajo Perspectivas Macro: Análisis de Agregados Económicos en España. El repo del trabajo está aquí.\nAna Royo Sánchez presentó el trabajo Análisis de los 10 álbumes de Taylor Swift. El repo del trabajo está aquí.\nÁngel Martínez Albert presentó el trabajo Premier League 2022-2023. El repo del trabajo está aquí.\nDavid Bayot Serrano presentó el trabajo Análisis del mercado de videojuegos. El repo del trabajo está aquí.\nJuan Bosco Pujol presentó el trabajo Ataques de tiburón a lo largo de la historia. El repo del trabajo está aquí.\nPedro Peñalver Cañigueral presentó el trabajo Un vistazo a la inflación en España de las últimas dos décadas. El repo del trabajo está aquí.\nElena Paredes Borrachero presentó el trabajo Análisis general del Speedrunning: Super Mario 64. El repo del trabajo está aquí."
+  },
+  {
+    "objectID": "05-trabajos-estudiantes.html#cursos-anteriores",
+    "href": "05-trabajos-estudiantes.html#cursos-anteriores",
+    "title": "Programación y manejo de datos con R (2023-24)",
+    "section": "Cursos anteriores",
+    "text": "Cursos anteriores\n\n\n\n\n\n\n\nTrabajos de cursos anteriores\n\n\n\n\n\nPuedes ver los trabajos elaborados por estudiantes de cursos anteriores en los siguiente links:\n\nCurso 2022-23\nCurso 2021-22\nCurso 2020-21\nCurso 2019-20"
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2021-22.html#trabajos-en-equipo",
+    "href": "mas-cosas/07-trabajos_2021-22.html#trabajos-en-equipo",
+    "title": "Curso 2021-2022",
+    "section": "Trabajos en equipo",
+    "text": "Trabajos en equipo\n\n\n\nJesús Lloret Quero, Vicent Mompo Crespo y Francisco Martínez Caballero presentaron el trabajo Inflación en tiempos de pandemia. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nPau Piera Palacios, Mario García Zamora y Pau Piera Palacios presentaron el trabajo Sistema de Pensiones Español. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAleixandra Blasco, Alba Ibañez y Vanesa Regueiro Raña presentaron el trabajo Spotify en la actualidad y su espíritu navideño. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nTeodoro D’Agostino, Jorge González y Aurora Lloret presentaron el trabajo Principales conclusiones de la piratería desde 1993 hasta nuestros días. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nCarlos García Castilla, Alejandro García Segarra y Cayetano Fernando Romero Monteagudo presentaron el trabajo Alt + Formula 1. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nGalina Lopez Zinchuk, Fatima Makroud Saidi y Damian Pérez Soler presentaron el trabajo Análisis del impacto medioambiental de la producción agrícola en Europa. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nJulio Gonzalez Miralles, Pedro Julián López Mejías y Lawrence Daniel Phillips Bates presentaron el trabajo ¿Se vive bien en la Comunidad Valenciana. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nCarolina Espí García, José Pineda Torres y Jialing Zhang presentaron el trabajo Evolución del precio del crudo. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAnna Chesa Llorens, Lorenzo Chirchirillo y Alicja Młynek presentaron el trabajo Análisis de las mejores 100 universidades del mundo. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAlejandro Calderero, Mario de Benito y Alejandro Pérez presentaron el trabajo Análisis de criptomonedas, evolución y actualidad. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAlba Estela, Melanie Neufcour y Mireia Yangüez presentaron el trabajo FAST FOOD. Análisis del restaurante McDonald’s. El repo del trabajo está aquí. Las slides para la presentación están aquí."
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2021-22.html#trabajos-individuales",
+    "href": "mas-cosas/07-trabajos_2021-22.html#trabajos-individuales",
+    "title": "Curso 2021-2022",
+    "section": "Trabajos individuales",
+    "text": "Trabajos individuales\n\n\nJesus Lloret Quero presentó el trabajo El Tour de Francia en datos. El repo está aquí.\nPau Piera Palacios presentó el trabajo Análisis de los Juegos Olímpicos. El repo está aquí.\nMelanie Neufcour Barbosa presentó el trabajo Impacto del deporte en nuestro país. El repo está aquí.\nCayetano Romero Monteagudo presentó el trabajo NBA a base de datos. El repo está aquí.\nTeodoro D’Agostino García presentó el trabajo Los puentes sobre el Danubio. El repo está aquí.\nCarlos García Castilla presentó el trabajo LA BANDA SONORA DEL 2021. El repo está aquí.\nAlba Estela García presentó el trabajo TOP PELICULAS. El repo está aquí.\nVicent Mompó Crespo presentó el trabajo Sostenibildad de la deuda pública española. El repo está aquí.\nJorge González Andrés presentó el trabajo ¿Quíen es el GOAT del tenis? El repo está aquí.\nMario García Zamora presentó el trabajo Historia económica de Sudáfrica. El repo está aquí.\nAlejandro Pérez presentó el trabajo Analisis de la Educacion. El repo está aquí.\nVanesa Regueiro presentó el trabajo Evolución Universidad de Valencia en los últimos años. El repo está aquí.\nCarolina Espí presentó el trabajo Naciones Unidas: Datos sobre población. El repo está aquí.\nAlba Ibáñez Montagud presentó el trabajo Análisis de los Juegos Olímpicos. El repo está aquí.\nAleixandra Blasco presentó el trabajo Análisis de Disney y Marvel. El repo está aquí.\nFrancisco Martínez Caballero presentó el trabajo Relevancia del sector turístico en la economía pre y post Covid-19. El repo está aquí.\nJialing Zhang presentó el trabajo Población de los países miembros de la UE. El repo está aquí.\nAnna Chesa Llorens presentó el trabajo Análisis demográfico con datos de la OCDE. El repo está aquí.\nAlicja Młynek presentó el trabajo Multimillonarios en el mundo. El repo está aquí.\nAlejandro García Segarra presentó el trabajo El mercado de los videojuegos. El repo está aquí.\nRubén Campos Campos presentó el trabajo Mejores ligas europeas de fútbol. El repo está aquí.\nJosé Pineda Torres presentó el trabajo Calp en la Marina Alta. El repo está aquí.\nMireia Yangüez Oliva presentó el trabajo Análisis económico austríaco. El repo está aquí.\nDamián Pérez Soler presentó el trabajo Índice de libertad económica. El repo está aquí.\nAlejandro Calderero Pierna presentó el trabajo Fútbol: La liga. El repo está aquí\nLawrence D. Phillips presentó el trabajo La epidemia de los opioides en Estados Unidos. El repo está aquí."
+  },
+  {
+    "objectID": "mas-cosas/04_como-entregar-las-tareas-uploader.html",
+    "href": "mas-cosas/04_como-entregar-las-tareas-uploader.html",
+    "title": "Entrega de los trabajos que formen parte de la evaluación continua",
+    "section": "",
+    "text": "Como sabéis, a lo largo del curso os mandaré tareas que formarán parte de la evaluación continua. Algunas de estas tareas serán para resolver en casa y otras se resolverán en el aula."
+  },
+  {
+    "objectID": "mas-cosas/04_como-entregar-las-tareas-uploader.html#footnotes",
+    "href": "mas-cosas/04_como-entregar-las-tareas-uploader.html#footnotes",
+    "title": "Entrega de los trabajos que formen parte de la evaluación continua",
+    "section": "Notas",
+    "text": "Notas\n\nLo siento, pero seguramente no podré enviarlo antes, pero piensa que solo es arrastar y subir un fichero a una dirección web.↩︎"
+  },
+  {
+    "objectID": "mas-cosas/cuestionario-inicial.html",
+    "href": "mas-cosas/cuestionario-inicial.html",
+    "title": "Cuestionario inicial",
+    "section": "",
+    "text": "Hola,\ncomo os he comentado en el e-mail, antes de empezar el curso necesito saber un poco el nivel que tenéis de conocimientos de informática y programación1. Por eso os pido que me contestéis a las 10 preguntas que tenéis más abajo. Tomároslo en serio porque igual usamos los datos del cuestionario para hacer algún análisis durante el curso.\nLas respuestas has de enviármelas a través del siguiente cuestionario: https://forms.gle/Ac3EF3W1u77Zzx2u6\nLa primera parte del cuestionario consiste simplemente en poner vuestros datos de identificación básicos, pero además os pido: 1) vuestro número NPA (o número académico personal) y 2) vuestro usuario de Github.\nDespués de cumplimentar vuestros datos de identificación, tenéis que contestar a 10 preguntas. Las primeras 8 preguntas son sobre vuestros conocimientos de programación y el formato de respuesta es de texto libre2. Las 2 últimas preguntas son muy fáciles, se trata simplemente de ver donde habéis nacido los estudiantes del curso y una canción que os guste, pero tenéis que prestar atención al formato en el que espero las respuestas.\nEstas son las 10 preguntas:\nLa fecha límite para contestar el formulario es el lunes 11 de septiembre a las 23:59.\nNos vemos en clase"
+  },
+  {
+    "objectID": "mas-cosas/cuestionario-inicial.html#footnotes",
+    "href": "mas-cosas/cuestionario-inicial.html#footnotes",
+    "title": "Cuestionario inicial",
+    "section": "Notas",
+    "text": "Notas\n\nNo te preocupes si tienes nivel bajo o muy bajo, ya que el curso empieza (casi) desde cero↩︎\nPor favor, que las respuestas estén bien escritas; vamos, que sean legibles↩︎"
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2022-23.html#trabajos-en-equipo",
+    "href": "mas-cosas/07-trabajos_2022-23.html#trabajos-en-equipo",
+    "title": "Curso 2022-2023",
+    "section": "Trabajos en equipo",
+    "text": "Trabajos en equipo\n\n\n\nNaira Carruccio Villada, Alex Monzó Santana y Luis Antonio Pérez Padauy presentaron el trabajo La evolución del gasto en educación en España y su relación con las pruebas PISA. El repo del trabajo está aquí.\n\n\n\n\nHelena Albors, Noelia Teruel y Carla Morgado presentaron el trabajo El papel de la mujer en la educación y en el trabajo. El repo del trabajo está aquí.\n\n\n\n\nPaula Martínez Serrano, Sonia Monleón Fernández y Leire Montón Pastor presentaron el trabajo Evolución del mercado laboral en España. El repo del trabajo está aquí.\n\n\n\n\nAlejandro Hortelano Martín , Víctor Gallego Urrea y José María Perez presentaron el trabajo Big Data en la Formula 1 El repo del trabajo está aquí.\n\n\n\n\nJosep Gómez Corral, Ferran Alemany Parets y Rubén Rodríguez Giménez presentaron el trabajo Infraestructuras ferroviarias en Europa: El problema de España.. El repo del trabajo está aquí.\n\n\n\n\nYi Zhang, Raphaëlle Bastien y Kaikai Qiu presentaron el trabajo Análisis económico sobre la crisis de la pandemia. El repo del trabajo está aquí.\n\n\n\n\nIgnacio Manuel Muñoz Ayala, María Mena Esteban y Miguel Herrero Fuertes presentaron el trabajo Inflación en tiempos de pandemia. El repo del trabajo está aquí.\n\n\n\n\nCarlos Garcia Ponce y Vera Monteagudo Serrano presentaron el trabajo Estudio de las plataformas audiovisuales. El repo del trabajo está aquí.\n\n\n\n\nSukhman Kaur, Juliet Allegra y Juan David presentaron el trabajo Streaming vs. Cine. El repo del trabajo está aquí.\n\n\n\n\nAdeline Baillifard, Lena Baerwinkel y Luis Steven Vega presentaron el trabajo Las energías en Europa. El repo del trabajo está aquí.\n\n\n\n\nSandra March Arazola, Alberto Cabrera Pérez y Alegría Pintado Barcelo presentaron el trabajo Incertidumbre por la escalada de precios. El repo del trabajo está aquí."
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2022-23.html#trabajos-individuales",
+    "href": "mas-cosas/07-trabajos_2022-23.html#trabajos-individuales",
+    "title": "Curso 2022-2023",
+    "section": "Trabajos individuales",
+    "text": "Trabajos individuales\n\n\nJosep Gómez Corral presentó el trabajo 2005 y 2006. Las dos del Nano. El repo del trabajo está aquí.\nAlejandro Hortelano Martín presentó el trabajo Levante UD en la temporada 18-19. El repo del trabajo está aquí.\nRubén Rodríguez Giménez presentó el trabajo Mercado de coches de segunda mano. El repo del trabajo está aquí.\nAlex Monzo Santana presentó el trabajo La mejor serie: The Walking Dead. El repo del trabajo está aquí.\nMaría Mena Estebán presentó el trabajo El desempleo y las carreras universitarias en España. El repo del trabajo está aquí.\nLuis Pérez presentó el trabajo Deuda Soberana Estadounidense. El repo del trabajo está aquí.\nAdeline Baillifard presentó el trabajo Las páginas web más visitadas. El repo del trabajo está aquí.\nSukhman Kaur presentó el trabajo Análisis y trayectoria económica de India. El repo del trabajo está aquí.\nKaikai Qiu presentó el trabajo La lotería de Navidad. El repo del trabajo está aquí.\nPaula Martínez Serrano presentó el trabajo Violencia de género en España. El repo del trabajo está aquí.\nVíctor Gallego Urrea presentó el trabajo Big Data en la Euroliga - ACB. La repo del trabajo está aquí.\nHelena Albors presentó el trabajo Indicadores que afectan al nivel de desarrollo de los países. El repo del trabajo está aquí.\nCarla Morgado presentó el trabajo La evolución de los sectores económicos.El repo del trabajo está aquí.\nJuan Emilio Gómez-Meana Torres presentó el trabajo El potencial económico de Brasil. El repo del trabajo está aquí.\nNaira Carruccio Villada presentó el trabajo Análisis de la plataforma de Filmaffinity.El repo del trabajo está aquí.\nYi Zhang presentó el trabajo El Ramen mola. El repo del trabajo está aquí.\nSonia Monleón Fernández presento el trabajo Inversión en protección medio ambiental. El repo del trabajo está aquí.\nVera Monteagudo presentó el trabajo La felicidad en relación a la renta. El repo del trabajo está aquí.\nJavier Ruiz Puchol presentó el trabajo Análisis de la Industria Musical: Spotify. El repo del trabajo está aquí.\nRaphaelle Bastien presentó el trabajo Análisis de la Industria Musical: Spotify. El repo del trabajo está aquí.\nAlberto Cabrera Pérez presentó el trabajo Evolución de la esperanza de vida. El repo del trabajo está aquí.\nIgnacio Manuel Muñoz Ayala presentó el trabajo Temporada 2020-2021 F1. El repo del trabajo está aquí.\nLeire Montón presentó el trabajo Nombres de hombres y mujeres en España. El repo del trabajo está aquí.\nNoelia Teruel Ortega presentó el trabajo Rosalía y C. Tangana en Spotify. El repo del trabajo está aquí.\nSandra March Arazola presentó el trabajo Debates de actualidad. El repo del trabajo está aquí.\nAlegría Pintado Barceló presento el trabajo Argumentos que defienden la existencia del salario mínimo. El repo del trabajo está aquí.\nVictor Muñoz Barrasa presentó el trabajo Liga BBVA. El repo del trabajo está aquí.\nMiguel Herrero Fuertes presentó el trabajo trabajo Análisis del paro en España. El repo del trabajo está aquí\nCarlos García Ponce presentó el trabajo Fútbol internacional. El repo del trabajo está aquí.\nJuliet Allegra presentó el trabajo Best Selling Music Artists. El repo del trabajo está aquí.\nLena Baerwinkel presentó el trabajo La exploración de las series más populares de Netflix. El repo del trabajo está aquí.\nJuan Rios presentó el trabajo Comparación importantes métricas entre países europeos. El repo del trabajo está aquí."
+  },
+  {
+    "objectID": "mas-cosas/instrucciones_examen.html",
+    "href": "mas-cosas/instrucciones_examen.html",
+    "title": "BigData: instrucciones para el examen final.",
+    "section": "",
+    "text": "Instrucciones generales\n\nLa duración del examen será de 2 horas.\nDurante el examen se podrán utilizar apuntes y conexión a Internet, pero, evidentemente, no se puede interactuar con los compañeros, por lo que no se podrá abrir ninguna aplicación de mensajería o redes sociales.\nSe valorará principalmente la resolución correcta de las tareas pero, también se valorará la claridad y limpieza del código, así como la organización de los ficheros dentro del Qproject: el código tiene que entenderse. Para ello puedes incorporar todos los comentarios que creas oportunos.\nSaltarse preguntas puede valorarse negativamente, o si lo preferís, no saltarse preguntas puede valorarse positivamente.\n\n\n\n\n\nPara evitar las tentaciones de copiar:\n\nAl finalizar el examen (o durante este) el profesor podrá acceder a la Terminal de vuestro portátil para ver que programas y navegadores habéis usado durante el examen.\nAl finalizar el examen (o durante este) el profesor podrá acceder al historial de navegación de vuestros navegadores desde el comienzo del examen.\n\n\n\n\n\nInstrucciones para la realización y entrega del examen\n\nPara entregar tus respuestas crea un Quarto project con el siguiente nombre: examen_primer-apellido_primer-nombre_NPA. Por ejemplo: examen_perez_pedro_4444XP. Fíjate que hay 3 guiones bajos y que todo va en minúsculas (excepto el NPA) y que no hay tildes ni otras marcas de puntuación.\nEn el Qproject has de crear una carpeta llamada “datos” donde se almacenarán los datos que se descarguen durante el examen. No borres el archivo _quarto.yml, igual lo necesitas; de hecho, se valorará positivamente que las opciones de los chunks se especifiquen en el archivo _quarto.yml.\nDebes entregar tus respuestas a las preguntas del examen creando dentro del Qproject un documento .qmd llamado: respuestas_primer-apellido_primer-nombre_NPA.qmd. Por ejemplo: respuestas_perez_pedro_4444XP.qmd. (Fíjate que hay 3 guiones bajos … )\nAsimismo, tienes que entregar (dentro del Qproject) el archivo respuestas_primer-apellido_primer-nombre_NPA.html, resultado de hacer “Render” en el archivo .qmd anterior. En mi caso el archivo se llamaría respuestas_perez_pedro_4444XP.html.\nAl finalizar el examen deberás comprimir en un archivo zip tu proyecto y hacérselo llegar al profesor como este indique en el aula. Es decir, al finalizar el examen tienes que entregar un único fichero .zip con tu Qproject. Obviamente, el fichero .zip en mi caso se llamaría: examen_perez_pedro_4444XP.zip\nEl fichero .zip que me envíes debe contener todo tu proyecto; es decir, entre otras cosas debe contener los datos, el fichero _quarto.yml, el fichero .qmd con las respuestas al examen y el fichero .html ya procesado, vamos, TODO el proyecto.\nRecuerda que el fichero .html debe ser legible; es decir, en cada pregunta se debe mostrar el código con las instrucciones de R necesarias para contestarla y debe mostrase también el output demandado, ya sea este un mapa, una tabla, etc …\nRecuerda que se valora principalmente la resolución correcta de las tareas, pero también la claridad del código de los scripts y la organización de los ficheros dentro del Rproject.\nTambién se valorará que el fichero .qmd pueda ser procesado directamente sin errores, así como que la presentación de los resultados en el documento .html sea clara. Por ejemplo, se valorará negativamente la presencia de warnings o mensajes de R en el documento .html. Por ejemplo se valorará positivamente la presencia de un índice flotante en el fichero .html, ya que esto facilita la lectura y corrección del examen. Asimismo, se valorará positivamente que se pueda copiar en el portapapeles (pinchando en un icono) el código de los chunks.\nCuando yo corra vuestro código para evaluaros no tiene que mostrarse nada más que las respuestas a las preguntas. No se me debe abrir ninguna ventana (por ejemplo con View(df)) ni tenéis que hacerme instalar ningún paquete. Por ejemplo, si necesitaseis instalar algún paquete, antes de entregar el examen, comentáis esa linea de código.\nAntes de comenzar el examen se resolverán todas las dudas referentes a la presentación y formato de este.\n\n\n\n\n\nFormato del documento .html con tus respuestas\n\nEl fichero .html (generado con el .qmd) debe tener un índice flotante similar al utilizado en los tutoriales de clase. Además el fichero .html debe contener un botón que permita descargar el fichero .qmd que ha generado el fichero .html que contiene tus respuestas.\nEl examen tiene 3 preguntas. Cada pregunta deberá realizarse en una sección del documento .qmd; es decir, tenéis que separar las preguntas con un título de primer nivel.\nSi una pregunta/tarea tuviese varios apartados has de separar cada apartado con un título de tercer nivel.\nEl titulo del documento debe ser “Programación y manejo de datos (Respuestas al examen final)” y en el campo autor debe figurar tu Nombre y Apellidos\nNo se deben copiar ni las instrucciones, ni los enunciados de las preguntas pero, si quieres, puedes escribir en el texto y en el código del .qmd los comentarios que consideres oportunos.\n\n\n\n\n\nPUNTUACIÓN:\n\nEl examen consta de 3 preguntas con varios apartados. En total habrán 20-24 apartados aproximadamente.\nCada apartado aporta un punto.\nRecuerda que factores como la estructura y limpieza del código o el ajustarse a estas instrucciones también se valoran; por lo que la puntuación máxima del examen puede llegar a 30."
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2019-20.html#trabajos-en-equipo",
+    "href": "mas-cosas/07-trabajos_2019-20.html#trabajos-en-equipo",
+    "title": "Curso 2019-2020",
+    "section": "Trabajos en equipo",
+    "text": "Trabajos en equipo\n\nEn la primera edición del curso le dedicamos poco tiempo al proyecto: sólo aportaba 1,25 puntos de la nota final. No le dedicamos tiempo a pulirlos, pero aún así salieron bastante bien. Aquí tienes una muestra de los proyectos que presentaron los estudiantes en el curso 2019-2020:\n\nElecciones 28-A: las Slides, el Informe y el repo\nProyecto-AGA: las Slides, el Informe y el repo\nLa revolución del triple en la NBA: las Slides, el Informe y el repo\nDelitos en Europa: las Slides, el Informe y el repo\n\n\nEl resto de trabajos están en el repo del curso 2019-2020. No tendrás fácil verlos porque no les enseñé a desplegar sus proyectos en una web. Fallo mio!!! pero es que a todo no se llega."
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2020-21.html#trabajos-en-equipo",
+    "href": "mas-cosas/07-trabajos_2020-21.html#trabajos-en-equipo",
+    "title": "Curso 2020-2021",
+    "section": "Trabajos en equipo",
+    "text": "Trabajos en equipo\n\n\n\nMarta Oliver Beltrán, Carlos Rodríguez Gonzalvo y Mar Valldecabres Lull presentaron el trabajo Análisis de la oferta audiovisual de Netflix. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nJuan Carlos García Guardeño, Hugo Moneo Hernández y Miguel Montalvo Diestro presentaron el trabajo La incidencia del Covid-19 en la Comunidad Valenciana. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nCarlos Corachan Pérez, Dairo Smith Quintero Vargas, Miguel Silla Rios y Daniela Villa Arboleda presentaron el trabajo Impacto económico del Covid-19 según modelo de desarrollo de los países. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nIgnacio Corachan Perez, Sergio Escorcia Torres y Rodrigo Lara Rodriguez presentaron el trabajo Análisis del impacto ecológico. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nLaura Albert Moscardó, Laura Borrás Pariente y Daniel Casino Ballesteros presentaron el trabajo Nombres y Apellidos en España. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nBernardo Cartusciello, Vicente Celis y José María Fernández presentaron el trabajo Situación del sector aéreo. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAndreu Esparza i Martinez, Ignacio Montava Peralta y Noelia Sánchez March presentaron el trabajo Análisis sobre la Covid-19. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nManuel Jiménez Haro, Antonio Langa Lahoz y Manuel Rojo López presentaron el trabajo Evolución y curiosidades de los Juegos Olímpicos. El repo del trabajo está aquí. Las slides para la presentación están aquí.\n\n\n\n\nAna Maria Borrás Cebolla, Hugo Martin Chisvert y Pavlina Dinkova Grozeva presentaron el trabajo Turismo en España. El repo del trabajo está aquí. Las slides para la presentación están aquí."
+  },
+  {
+    "objectID": "mas-cosas/07-trabajos_2020-21.html#trabajos-individuales",
+    "href": "mas-cosas/07-trabajos_2020-21.html#trabajos-individuales",
+    "title": "Curso 2020-2021",
+    "section": "Trabajos individuales",
+    "text": "Trabajos individuales\n\n\nNoelia Sánchez March presentó el trabajo Estudio sobre el Mercado de Trabajo. El repo está aquí.\nBernardo Cartusciello presentó el trabajo Fórmula 1 2019. El repo está aquí.\nVicente Celis Rondon presentó el trabajo English Premier League Temporada 2019/2020. El repo está aquí.\nPavlina Dinkova Grozeva presentó el trabajo Criminalidad en el mundo. El repo está aquí.\nDaniel Casino Ballesteros presentó el trabajo Datos y estadísticas de Youtube: Bad Gyal. El repo está aquí.\nAna María Borrás Cebolla presentó el trabajo Energías Renovables. El repo está aquí.\nJosé María Fernández presentó el trabajo Grand Slam Tenis. El repo está aquí.\nMiguel Montalvo Diestro presentó el trabajo Estudio del sector agrícola: La Alcachofa. El repo está aquí.\nMar Valldecabres Lull presentó el trabajo Introspección al mundo del tenis. El repo está aquí.\nIgnacio Montava presentó el trabajo Datos interesantes sobre la historia del futbol español. El repo está aquí.\nMiguel Silla Ríos presentó el trabajo Evolución del saldo de la balanza por cuenta corriente. El repo está aquí.\nManuel Rojo López presentó el trabajo Los PIGS. El repo está aquí.\nMarta Oliver Beltrán presentó el trabajo Fútbol femenino. El repo está aquí.\nSergio Escorcia presentó el trabajo Análisis sobre la Economía Griega. El repo está aquí.\nHugo Martin Chisvert presentó el trabajo Análisis del comercio exterior español. El repo está aquí.\nHugo Moneo presentó el trabajo Delitos en España. Evolución y efectos de la pandemia sobre el número total de infracciones penales registradas. El repo está aquí.\nRodrigo Lara Rodríguez presentó el trabajo Trabajo Macroeconomía Internacional. País : Alemania. El repo está aquí.\nManuel Jiménez Haro presentó el trabajo Cómo influyen el actor/actriz principal, director y productora en el éxito de una película. El repo está aquí.\nLaura Albert Moscardó presentó el trabajo Análisis sobre la Violencia de Género en España. El repo está aquí.\nCarlos Rodríguez Gonzalvo presentó el trabajo Afectación del COVID19 en el pequeño comercio valenciano. El repo está aquí.\nLaura Borrás Pariente presentó el trabajo La Desigualdad. El repo está aquí.\nNacho Corachan presentó el trabajo Análisis BitCoin. El repo está aquí.\nAntonio Langa presentó el trabajo Relación del PIBpc de EEUU con las elecciones del 2020. El repo está aquí.\nDairo Quintero Vargas presentó el trabajo Evolución y efecto del uso fuentes de energía. El repo está aquí.\nCarlos Corachan Pérez presentó el trabajo Comparativa PIB-PIBpc. El repo está aquí.\nAndreu Esparza i Martínez presentó el trabajo Analisis de los esports. El repo está aquí.\nJuan Carlos García Guardeño presentó el trabajo The Better Life Index. El repo está aquí.\nDaniela Villa presentó el trabajo Desigualdad en el mercado laboral. El repo está aquí."
+  }
+]

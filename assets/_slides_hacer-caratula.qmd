@@ -1,0 +1,41 @@
+---
+title: "Programación y manejo de datos  <br> en la era Del Big Data"
+#subtitle: " <br> en la era Del Big Data"
+
+#subtitle: "\n \n<br>  **(2023-24)**"  #-""
+author: "<br> <br> Curso 2023-24 <br>"
+#author: "" #-"Pedro J. Pérez <br> Francisco G. Morillas <br><br>"
+#date: " 2023-24" #-2022-11-24  #- ISO8601 YYYY-MM-DD format 
+# date-format: short
+format: 
+  revealjs:
+    scrollable: true
+    slide-level: 2
+    height: 900
+    width: 1600
+    toc: false
+    from: markdown+emoji  #- usar emojis https://gist.github.com/rxaviers/7360908)
+    center-title-slide: true
+    title-slide-attributes: #- atributos para la slide de titulo
+      data-background-color: "#009FA1"  #- "#562457"   color de R-ladies
+      #data-background-image: /imagenes/economia.gif
+      #data-background-size: contain      
+    preview-links: auto  #- true: abre un iframe en lugar de abrir ventana
+    #multiplex: true  #- para que puedas manejar las slides del publico
+    link-external-newwindow: true
+    transition: fade
+    #height: 900
+    #width: 1600
+    fontcolor: "#262d36"
+    highlight-style: a11y
+    code-line-numbers: true
+    number-sections: false
+    slide-number: c/t   # https://pandoc.org/MANUAL.html#structuring-the-slide-show
+    incremental: false   # https://quarto.org/docs/presentations/#incremental-lists
+#logo: imagenes/economia.gif
+#footer: |
+#        Slides hechas con [Quarto](https://quarto.org/) para las [XII Jornadas de Usuarios de R](http://r-es.org/12jr/)
+    #theme: [moon, custom.scss]
+---
+
+Hola

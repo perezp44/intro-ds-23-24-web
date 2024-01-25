@@ -1,0 +1,176 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+---
+
+
+::: {.callout-note appearance="default" icon="false"}
+#### Logística
+
+En el curso utilizaremos ordenadores y algunos programas y servicios informáticos. En esta sección explicaré los detalles de instalación y/o uso
+
+:::
+
+<br><br>
+
+
+### Programas
+::: {.callout-note appearance="minimal" icon="false"}
+
+
+-   En el curso usaremos principalmente **3 programas**. Principalmente usaremos  [R](https://cran.r-project.org/){target="_blank"} a través de [RStudio](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}. También usaremos [Quarto](https://quarto.org/).
+
+-   Se recomienda tener instaladas **versiones recientes** de los 3 programas. Tienes instrucciones de instalación más abajo
+
+-   Es muy-muy conveniente acudir al curso con tu propio ordenador.
+
+:::
+
+
+## Programas (instalación)
+
+::: {.callout-important collapse="false" appearance="default" icon="false"}
+## Instalación de R, RStudio y Quarto
+
+-   En el curso usaremos 3 programas: R, RStudio y Quarto, así que tenemos que instalarlos
+
+-   Has de instalar los programas en este orden:
+
+    1.  R: <https://cran.r-project.org/>{target="_blank"}
+
+    2.  RStudio: <https://posit.co/download/rstudio-desktop/>{target="_blank"}
+    
+    3. Quarto: <https://quarto.org/docs/download/>{target="_blank"}
+
+-   Para ello, solamente has de descargar las versiones de los instaladores adecuadas para tu sistema operativo
+:::
+
+<br>
+
+## Instalación de paquetes
+
+
+::: {.callout-important collapse="true" appearance="default" icon="false"}
+## Instalación de paquetes
+
+- En el curso también usaremos algunos paquetes de R, así que tendremos que instalarlos ... pero **os lo explicaré en clase**
+
+- Los paquetes se han de instalar una vez hayas instalado los 3 programas (R, RStudio y Quarto)
+
+:::
+
+
+
+
+::: {.callout-important collapse="true" appearance="default" icon="false"}
+## Instalación de paquetes: más detalles
+
+- Recuerda que Los paquetes no son necesarios para el primer día del curso, así que os ayudaré a instalarlos en clase 
+
+- Algunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:
+
+    - Si usas Windows instalaremos **Rtools**. [Aquí](https://cran.r-project.org/bin/windows/Rtools/) puedes descargarte el instalador adecuado
+    
+    - Si tienes un Mac, tendrás que instalar the **Xcode Command Line Tools**. Lo normal es que lo tengas ya instalado, si no fuese el caso, [aquí](https://www.makeuseof.com/install-xcode-command-line-tools/) te explican como hacerlo. Además, como nos cuentan [aquí](https://psyteachr.github.io/msc-data-skills/installingr.html), si tienes un Mac, es conveniente instalar **XQuartz**, para ello sólo tienes que buscar el instalador en <https://www.xquartz.org/>
+
+  
+- Finalmente, para instalar algunos de los paquetes que usaremos durante el curso tendremos que **ejecutar las siguientes instrucciones**:
+
+```{r}
+#| eval: false
+#| code-line-numbers: false
+#| code-overflow: wrap
+#| code-fold: true
+#| code-summary: "Código para instalar los paquetes"
+
+#- instalación de paquetes ---------------------------------
+
+install.packages("pak")
+
+mys_pkgs <- c("tidyverse", "curl", "eurostat", "here", "palmerpenguins", "quantmod", "rio", "gt", "DT", "gapminder", "markdown")
+pak::pkg_install(mys_pkgs)   
+
+mys_pkgs <- c("usethis", "janitor", "ggthemes", "gganimate", "perezp44/pjpv.curso.R.2022", "sjPlot")
+pak::pkg_install(mys_pkgs)   
+
+mys_pkgs <- c("sf", "rcartocolor", "rmapshaper", "gtExtras", "patchwork", "magick")
+pak::pkg_install(mys_pkgs)   
+
+mys_pkgs <- c("kableExtra", "modelsummary", "rpivotTable", "widyr", "irlba", "tmap")
+pak::pkg_install(mys_pkgs)
+
+mys_pkgs <- c("GGally", "ggtext", "Financial-Times/ftplottools", "maps")
+pak::pkg_install(mys_pkgs)  
+
+mys_pkgs <- c("summarytools", "glin/reactable", "agstn/dataxray", "naniar")
+pak::pkg_install(mys_pkgs)  
+
+mys_pkgs <- c("DataExplorer", "corrr", "inspectdf", "explore", "stargazer", "apaTables")
+pak::pkg_install(mys_pkgs)   
+
+mys_pkgs <- c("easystats", "plotly")
+pak::pkg_install(mys_pkgs)
+
+#- finalmente, si te instalas todos los paquetes, se instalarán 284 pkg's aprox. (q ocupan 842 MB aprox.)
+pkgs <- pak::pkg_list()
+
+#- normalmente tendrás 2 librerías
+.libPaths()
+#- en la primera tienes los pkgs de "R-base": "C:/Program Files/R/R-4.3.0/library"   
+#- en la segunda tienes los paquetes q se instala un usuario:  "C:/Users/Usuario/AppData/Local/R/win-library/4.3" 
+
+
+#- más cosas ---------------------------------------
+# usethis::edit_rstudio_prefs()
+# usethis::use_blank_slate() 
+
+# quarto install tool tinytext
+# quarto install tinytex --update-path
+# quarto install tool chromium
+```
+
+:::
+
+
+<br><br>
+
+## Recursos
+
+::: {.callout-note appearance="minimal" icon="false"}
+- Son simplemente enlaces a servicios que (seguramente) usaremos durante el curso
+:::
+
+-   [**Etherpad**](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
+
+-   [**Foros del curso**](https://github.com/perezp44/intro-ds-23-24-web/discussions){target="_blank"}: un espacio para resolver preguntas sobre el curso y las tareas para casa.
+
+-   [**Cuestionario de Google**](https://forms.gle/kvrZbuw6XtRDhki98){target="_blank"}: Generalmente recogeré los trabajos a través de `uploaders` o por mail, pero esa función también podría hacerla este cuestionario.
+
+-   [**Aula Virtual de la asignatura**](https://aulavirtual.uv.es/course/view.php?id=66461){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. Además, si hiciera falta, allí podemos organizar reuniones virtuales a través de BBC (Black Board Collaborate).
+
+-   [**RStudio Cloud Project**](https://rstudio.cloud/content/4385030){target="_blank"}: En otros cursos este recurso nos resulto muy útil, pero ahora la versión gratuita tiene límite de tiempo así que creo que no lo usaré, pero por si acaso aquí está.
+
+<br><br>
+
+## Entrega de trabajos
+
+Durante el curso, sobre todo las primeras semanas, os mandaré tareas, algunas para resolver en el aula y otras para resolver en casa. Estas tareas, generalmente, formarán parte de la evaluación continua. Abajo tenéis las instrucciones para la entrega de las tareas:
+
+- [Intrucciones de entrega de las tareas de la evaluación continua](./mas-cosas/04_como-entregar-las-tareas-uploader.html){target="_blank"}
+
+<br><br>
+
+## Materiales de clase
+
+Durante el curso, utilizaremos diversos materiales, puedes encontrarlos en la sección [`Materiales`](03-materiales.qmd).
+
+
+<br><br>
+
+## Instrucciones para el examen final
+
+- [Instrucciones](./mas-cosas/instrucciones_examen.html){target="_blank"} y un [ejemplo](./mas-cosas/ex_final_BigData_23-24-bones.html){target="_blank"} de cómo ha de quedar más o menos el documento .html con tus respuestas
+
+<br>
+

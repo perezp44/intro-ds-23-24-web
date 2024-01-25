@@ -1,0 +1,143 @@
+---
+#title: "Información sobre el curso"
+toc: true
+#self-contained: true
+toc-title-website: "En esta página 44"
+toc-title-document: "Indice de contenidos 44"
+
+---
+
+## Trabajos (curso 2023-24)
+
+
+Como parte de la evaluación continua, los estudiantes del curso 2023-24, elaboraron **2 trabajos**, uno individual y otro en equipo. Puedes verlos más abajo.
+
+
+### Trabajos en equipo
+
+<br>
+
+-   **Juan Antonio Abello**, **Alessio Di Gennaro** y **Anaïs Rosschaert** presentaron el trabajo [ Evolución comparativa de la inflación en España](https://aanais02.github.io/trabajo_BigData_equipo/my_trabajo_BigData.html){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aanais02/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-   **Cristina Tormos de Lamo** y **Manuel Gimeno Llido** presentaron el trabajo [Hits Spotify 2023 y el caso de Feid](https://ctorm27.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está 
+[aquí](https://github.com/ctorm27/trabajo_BigData_equipo){target="_blank"}.
+
+
+<br>
+
+
+
+- **Ángel Martínez Albert **, **Luis Aaron Alarcón Saiz** y **Manuel Lloret Pineda** presentaron el trabajo [Análisis general de las regiones de España](https://manulloret.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/manulloret/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-  **Dana Bauer**, **Elena Paredes** y **Ricardo Freire** presentaron el trabajo [Análisis de la Industria Cinematográfica](https://ricardofreirev.github.io/trabajo_BigData_equipo){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ricardofreirev/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-  **Juan Bosco Pujol Cerdá** y **Javier Belenguer Esteban** presentaron el trabajo [El encarecimiento del coste de vida en España](https://Boskarro.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Boskarro/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-   **Valentina Julieta Arnoletto**, **Nerea Escribano Soria**, **Natalia García Gómez** y **Ana Royo Sánchez** presentaron el trabajo ["El futuro de los jóvenes"](https://valentinaarnoletto.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/valentinaarnoletto/trabajo_BigData_equipo){target="_blank"}.
+
+
+<br>
+
+-   **Alejandro Lucas**, **Adrián Guijarro** y **Luis Díaz** presentaron el trabajo [Lenguajes de programación: evolución y programación en economía](https://aluse33.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aluse33/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+- **Saúl Gil Pérez**, **Pedro Peñalver Cañigueral** y **Joel Seguí Far** presentaron el trabajo [La vivienda, un bien innalcanzable para la juventud](https://copitodeleche.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/copitodeleche/trabajo_BigData_equipo/){target="_blank"}
+
+
+<br>
+
+-   **David Bayot Serrano**, **Javier Mascarell Agustin** y **Carlos Vicedo Albors** presentaron el trabajo [Análisis económico y demográfico de España. Retos para los jóvenes españoles](https://Dabrando8.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Dabrando8/trabajo_BigData_equipo){target="_blank"}.
+
+
+<br><br>
+
+
+
+### Trabajos individuales
+
+<br>
+
+
+-  **Ricardo Freire** presentó el trabajo [El Mercado Laboral en los Ojos de LinkedIn](https://ricardofreirev.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ricardofreirev/trabajo_BigData){target="_blank"}.
+
+
+- **Cristina Tormos** presentó el trabajo [Aterrizajes Meteoríticos](https://ctorm27.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ctorm27/trabajo_BigData_individual){target="_blank"}.
+
+
+- **Valentina Julieta Arnoletto** presentó el trabajo [La crisis de Argentina](https://valentinaarnoletto.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/valentinaarnoletto/trabajo_BigData){target="_blank"}.
+
+
+-   **Luis Aarón Alarcón Saiz** presentó el trabajo [los AUDIS molan](https://aarone8.github.io/los-AUDIS-molan/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aarone8/los-AUDIS-molan){target="_blank"}.
+
+-   **Adrián Guijarro Mártinez** presentó el trabajo [PIB español y Capital humano](https://AdriGuijarro.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AdriGuijarro/trabajo_BigData){target="_blank"}.
+
+-   **Dana Bauer** presento el trabajo [Análisis de las mujeres en la Industria Cinematográfica](https://danabm18.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/danabm18/trabajo_BigData/){target="_blank"}.
+
+
+-   **Alessio Di Gennaro** presentó el trabajo [Impacto ambiental en números: Emisiones de CO2 y Transición energética española](https://adigenaro.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/adigenaro/trabajo_BigData){target="_blank"}.
+
+
+-   **Joel Seguí Far** presentó el trabajo [Análisis de la plataforma de streaming NETFLIX](https://joel1091.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/joel1091/trabajo_BigData){target="_blank"}.
+
+ 
+-   **Nerea Escribano Soria** presentó el trabajo [Análisis de las plataformas de streaming](https://nereaescribano.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nereaescribano/trabajo_BigData){target="_blank"}.
+
+
+-   **Javier Belenguer Esteban** presentó el trabajo [Accidentes de tráfico](https://besja2002.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/besja2002/trabajo_BigData){target="_blank"}.
+
+
+-   **Alejandro Lucas Serrano** presentó el trabajo [Arreglando la Economía Española como no lo haría un economista (o cinco excusas para programar)](https://aluse33.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aluse33/trabajo_BigData){target="_blank"}.
+
+
+-   **Javier Mascarell Gallego** presentó el trabajo [Paco Te quiero (El grupo de música barcelonés)](https://pepemasca.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/pepemasca/trabajo_BigData){target="_blank"}.
+
+
+-   **Juan Antonio Abello** presentó el trabajo [Perspectivas Macro: Análisis de Agregados Económicos en España](https://abelloduran.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/abelloduran/trabajo_BigData){target="_blank"}.
+
+-   **Ana Royo Sánchez** presentó el trabajo [Análisis de los 10 álbumes de Taylor Swift](https://anaroyo.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/anaroyo/trabajo_BigData){target="_blank"}.
+
+-   **Ángel Martínez Albert** presentó el trabajo [Premier League 2022-2023](https://AngelitoMA11.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/AngelitoMA11/trabajo_BigData){target="_blank"}.
+
+-   **David Bayot Serrano** presentó el trabajo [Análisis del mercado de videojuegos](https://Dabrando8.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Dabrando8/trabajo_BigData){target="_blank"}.
+
+-   **Juan Bosco Pujol** presentó el trabajo [Ataques de tiburón a lo largo de la historia](https://Boskarro.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Boskarro/trabajo_BigData){target="_blank"}.
+
+-   **Pedro Peñalver Cañigueral** presentó el trabajo [Un vistazo a la inflación en España de las últimas dos décadas](https://pedrotti33.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://pedrotti33.github.io/trabajo_BigData/){target="_blank"}.
+
+-   **Elena Paredes Borrachero** presentó el trabajo [Análisis general del Speedrunning: Super Mario 64](https://elenaap2.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/elenaap2/trabajo_BigData){target="_blank"}.
+
+
+
+<br><br><br><br>
+
+-----------------------------------
+
+## Cursos anteriores
+
+<br>
+
+::: {.callout-note collapse="false" appearance="default" icon="false"}
+#### Trabajos de cursos anteriores
+
+
+Puedes ver los trabajos elaborados por estudiantes de **cursos anteriores** en los siguiente links:
+
+   - [Curso 2022-23](./mas-cosas/07-trabajos_2022-23.html){target="_blank"}
+   
+   - [Curso 2021-22](./mas-cosas/07-trabajos_2021-22.html){target="_blank"}
+   
+   - [Curso 2020-21](./mas-cosas/07-trabajos_2020-21.html){target="_blank"}
+   
+   - [Curso 2019-20](./mas-cosas/07-trabajos_2019-20.html){target="_blank"}
+
+:::
+

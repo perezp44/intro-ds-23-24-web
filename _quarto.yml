@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "mas-cosas/cuestionario-inicial.Rmd" 
+  preview:
+    port: 4444
+    browser: true
+    watch-inputs: true
+    navigate: true
+    
+website:
+  #page-navigation: true
+  title: "Programación y manejo de datos con R (2023-24)"
+  favicon: imagenes/uv.jpeg
+  site-url: https://perezp44.github.io/intro-ds-23-24.web/
+  repo-url: https://github.com/perezp44/intro-ds-23-24.web
+  repo-actions: [edit, issue]
+  repo-branch: master  #- edit page in Github https://github.com/quarto-dev/quarto-cli/discussions/4826
+  #open-graph: true #-https://quarto.org/docs/websites/website-tools.html#twitter-cards
+  #twitter-card:
+  #  creator: "@pjpv4444"
+  #  card-style: summary_large_image
+  navbar:
+    pinned: true
+    background: "#F1F3F4"   # "#F8F8F8"   # "#C0B9A0"  # "#e9e8f0"   #- color de R-ladies    # secondary
+    collapse-below: lg
+    logo: "imagenes/uv.jpeg"
+    #background: primary #- pink
+    left: 
+      - icon: house-door
+        href: index.html
+    right:
+      - text: "Guía del curso"
+        href: 01-guia-del-curso.qmd 
+      - text: "Logística"
+        href: 02-logistica.qmd 
+      - text: "Materiales"
+        href: 03-materiales.qmd    
+      - text: "Calendario"
+        href: 04-calendario.qmd
+      - text: "Trabajos"
+        href: 05-trabajos-estudiantes.qmd
+      - icon: github
+        href: https://github.com/perezp44
+      - icon: envelope
+        url: "mailto:pedro.j.perez@uv.es"
+  
+  page-footer:
+    left: "© 2023 Pedro J. Pérez"
+    center: "Hecho con [Quarto](https://quarto.org)"
+    right:
+      - icon: github
+        href: https://github.com/perezp44
+      - icon: envelope
+        url: "mailto:pedro.j.perez@uv.es"
+      - text: <i class="ai ai-google-scholar" role="img"></i>
+        href: https://scholar.google.de/citations?user=MFlgHdcAAAAJ&hl=en
+      - text: <i class="ai ai-orcid" role="img"></i>
+        href: https://orcid.org/0000-0001-9375-6330
+
+format:
+  html:
+    page-layout: full
+    theme: 
+      - cosmo #sketchy #slate #- litera  superhero darkly
+      - assets/ember.scss 
+    #   - custom.scss
+    css: 
+      - assets/styles.css
+    toc: true
+    code-line-numbers: true
+    code-copy: true
+    code-overflow: wrap    #- {wrap, scroll}
+    code-fold: show
+    code-tools: false
+    #code-summary: "Show the code"
+    code-link: true
+    
+lang: es   #- {es, en}
+
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+execute:
+  freeze: true  # re-render only when source changes
+  echo: true
+  message: false
+  warning: false
+  eval: true
+  #cache: true
+  
+#editor: visual
+
+#embed-resources: true
+
+highlight-style: monochrome
+
+#title-block-banner: true  #- {true, false, "#FFDDFF",  "image.jpg"}
