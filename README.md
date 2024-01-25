@@ -14,8 +14,6 @@ Este repositorio sirve para construir la página web de la asignatura **Programa
 
 La **página web** del curso está aquí: <https://perezp44.github.io/intro-ds-23-24-web/>
 
-Además, el repo tiene activadas las [Discussions](https://github.com/perezp44/intro-ds-23-24-web/discussions) para que nos sirvan como foro.
-
 <br>
 
 -- Pedro J. Pérez
